@@ -1,0 +1,8 @@
+[Unit]
+
+[Service]
+ExecStart=/bin/sh -c 'dbus-daemon --print-address --session > /tmp/DBUS_ADDRESS_FILE'
+OOMScoreAdjust=-900
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,6 @@
+1.cp "audiomgr.service didata.service ipcuart.service kanzi.service sdbus.service" to /lib/systemd/system.
+	and then use command
+	"systemctl enable XXX.service",enable the service
+2.cp "noempty, kanziservice-daemon.sh" to /user/bin
+        and chmod +x xxx
+3.then reboot

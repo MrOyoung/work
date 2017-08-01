@@ -1,0 +1,11 @@
+[Unit]                                                                          
+After=sdbus.service                                                             
+                                                                                
+[Service]                                                                       
+Type=simple                                                                   
+ExecStart=/bin/sh -c "noempty /tmp/DBUS_ADDRESS_FILE && export DBUS_SESSION_BUS_ADDRESS=`cat /tmp/DBUS_ADDRESS_FILE` && audiomgr_service"
+OOMScoreAdjust=-900                                                             
+Restart=always
+                                                                                
+[Install]                                                                       
+WantedBy=multi-user.target

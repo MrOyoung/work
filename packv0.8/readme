@@ -1,0 +1,8 @@
+how to use??
+run follow command.
+
+1.)chmod +x ./install.sh
+2.)./install.sh
+
+#在中兴的系统中无须安装cv.tar.bz2 -- rocky
+

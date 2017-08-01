@@ -1,0 +1,13 @@
+[Unit]
+Description=demo
+After=sdbus.service
+Requires=winston.service
+BindTo=winston.service
+
+[Service]
+Type = simple
+ExecStart=/bin/sh -c "noempty /tmp/DBUS_ADDRESS_FILE && export DBUS_SESSION_BUS_ADDRESS=`cat /tmp/DBUS_ADDRESS_FILE` && /opt/bin/app"
+Restart=always
+
+[Install]
+WantedBy=multi-user.target

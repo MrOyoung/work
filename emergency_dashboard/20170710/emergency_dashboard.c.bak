@@ -1,0 +1,241 @@
+#include <stdio.h>
+#include <unistd.h>
+#include <stdlib.h>
+
+#include <zre/re/c/util/cap_alloc.h>
+#include <zre/re/c/namespace.h>
+#include <zre/re/c/parent.h>
+#include <zre/io/io.h>
+#include <zre/libserial/serial_lib.h>
+#include <zre/libvideo/zre_video.h>
+#include <pthread-zre.h>
+
+#include <zre/libhealth_mgr/health_mgr.h>
+#include <zre/sys/cache.h>
+#include <zre/libipu/zre_ipu.h>
+
+#define HELPER_ID    1
+
+#define IDLE 1
+#define RUN 2
+void *serial_dev = NULL;
+static int should_stop = 1;
+static int serial_data_speed = 240 ;
+static int digit_hundred = 0;
+static int digit_decade = 0;
+static int digit_unit = 0;
+
+void *pic_bg_handle;
+unsigned int width_bg, height_bg;
+
+static int get_speed_from_data(unsigned char* data , int size );
+
+static void * helper_func(void *args)
+{
+	unsigned int width, height;
+	unsigned char *pic_h;
+	unsigned char *pic_d;
+	unsigned char *pic_u;
+	//	unsigned char *pic_null = zrepic_open("rom/null.bmp");
+	unsigned char *pic0 = zrepic_open("rom/0.bmp");
+	unsigned char *pic1 = zrepic_open("rom/1.bmp");
+	unsigned char *pic2 = zrepic_open("rom/2.bmp");
+	unsigned char *pic3 = zrepic_open("rom/3.bmp");
+	unsigned char *pic4 = zrepic_open("rom/4.bmp");
+	unsigned char *pic5 = zrepic_open("rom/5.bmp");
+	unsigned char *pic6 = zrepic_open("rom/6.bmp");
+	unsigned char *pic7 = zrepic_open("rom/7.bmp");
+	unsigned char *pic8 = zrepic_open("rom/8.bmp");
+	unsigned char *pic9 = zrepic_open("rom/9.bmp");
+	struct zrcpic_info *pic0_info = (struct zrcpic_info *)pic0;
+	struct zrcpic_info *pic1_info = (struct zrcpic_info *)pic1;
+	struct zrcpic_info *pic2_info = (struct zrcpic_info *)pic2;
+	struct zrcpic_info *pic3_info = (struct zrcpic_info *)pic3;
+	struct zrcpic_info *pic4_info = (struct zrcpic_info *)pic4;
+	struct zrcpic_info *pic5_info = (struct zrcpic_info *)pic5;
+	struct zrcpic_info *pic6_info = (struct zrcpic_info *)pic6;
+	struct zrcpic_info *pic7_info = (struct zrcpic_info *)pic7;
+	struct zrcpic_info *pic8_info = (struct zrcpic_info *)pic8;
+	struct zrcpic_info *pic9_info = (struct zrcpic_info *)pic9;
+
+	unsigned char *pic_arr[] = 
+	{
+		pic0, pic1, pic2, pic3,
+		pic4, pic5, pic6, pic7,
+		pic8, pic9
+	};
+
+	pic_bg_handle = zrepic_open("rom/bg.bmp");
+
+	while(1) 
+	{
+		int i = 0, ret = 0;
+		char read_buffer[512] = {0};
+		asm volatile("":::"memory");
+		if(!should_stop){
+
+			ret = uart_read(serial_dev, read_buffer,sizeof (read_buffer));
+			if(ret > 0){		
+				for(i = 0; i < ret; i++)
+					printf("%x ", read_buffer[i]);
+				printf("\n");
+			}
+
+			serial_data_speed = get_speed_from_data((unsigned char*)read_buffer , ret );
+			printf("ret = %d, serial_data_speed = %d\n", ret, serial_data_speed);
+
+			if( -1 == serial_data_speed )
+				continue;
+
+			digit_hundred = serial_data_speed/100;
+			digit_decade = serial_data_speed/10%10;
+			digit_unit = serial_data_speed%10;
+
+			pic_h = pic_arr[(digit_hundred)]; 
+			pic_d = pic_arr[digit_decade];
+			pic_u = pic_arr[digit_unit];
+
+			printf("serial_data_speed = %d\n", serial_data_speed);
+			zrepic_display(pic_u, 320, 300);
+			if (serial_data_speed < 10){
+				zrepic_clear(pic_d, 260, 300);
+				zrepic_clear(pic_h, 200, 300);
+			}
+			if ((9 < serial_data_speed) && (serial_data_speed < 100)){
+				zrepic_display(pic_d,260, 300);
+				zrepic_clear(pic_h, 200, 300);
+			}
+			if (99 < serial_data_speed){
+				zrepic_display(pic_d, 260, 300);
+				zrepic_display(pic_h, 200, 300);
+			}
+		}
+		sleep(1);
+	}
+
+	//	free(pic);
+
+	return NULL;
+}
+
+static void helper_main(unsigned long vram_virt)
+{
+	pthread_t th;
+	char helper_name[32];
+	zre_umword_t src;
+	zre_msgtag_t tag;
+	long ret;
+	zre_cap_idx_t ns;
+	int msg = RUN;
+
+	printf("helper vram_virt is 0x%lx\n", vram_virt);
+
+	ns = zcore_env_get_cap("shared");
+	if(ns == ZRE_INVALID_CAP)
+	{
+		printf("helper get shared cap failed\n");
+		return;
+	}
+
+	sprintf(helper_name, "helper%d", HELPER_ID);
+	ret = zcore_ns_register_obj_srv(ns, helper_name, pthread_getzrecap(pthread_self()), 0);
+	printf("register %s ret %ld\n", helper_name, ret);
+
+	zcore_parent_register_helper(HELPER_ID);
+
+	pthread_create(&th, NULL, helper_func, (void *)vram_virt);
+
+	while(1)
+	{
+#if 0
+		tag = zre_ipc_wait(zre_utcb(), &src, ZRE_IPC_NEVER);
+		if(zre_msgtag_has_error(tag))
+			continue;
+
+		src = tag.raw >> 16;
+		if(src == RUN)
+		{
+			printf("helper recve mesg to run\n");
+			should_stop = 0;
+		}
+		else
+		{
+			printf("helper recve mesg to stop\n");
+			should_stop = 1;
+		}
+		asm volatile("":::"memory");
+#endif
+		//********************************************
+		msg = health_mgr_get_msg();
+		if(msg < 0)
+			continue;
+		if(msg == RUN)
+		{
+			int ret = 0;
+
+			printf("helper recve mesg to run\n");
+			init_ipu(); 
+
+			serial_dev = uart_open_raw(1);
+			if(!serial_dev)
+			{
+				printf("open raw uart failed 2\n");
+			}
+
+			ret = zrepic_display_bg(pic_bg_handle);
+			printf("zrepic_display_bg return %d\n", ret);
+
+			should_stop = 0;
+		}
+		else if(msg == IDLE)
+		{
+			printf("helper recve mesg to stop\n");
+			should_stop = 1;
+		}
+	}
+}
+
+
+int main(void)
+{
+	unsigned long vram_virt=0;
+	printf("begin emergy_dash\n");
+
+	vram_virt = vram_init();
+	if(!vram_virt)
+	{
+		printf("map vram failed\n");
+		return 0;
+	}
+
+	helper_main(vram_virt);
+	return 0;
+}
+
+static int get_speed_from_data(unsigned char* data , int size )
+{
+	unsigned char* p = data;
+
+	while( ( *p != 0xaa ) && (p < (data + size)) )
+		p++;
+
+	if( p >= (data + size) )
+		return -1;
+
+	int frame_size = p[1];
+
+
+	if( p[frame_size + 8] != 0x55 ){
+		return -1;
+	}
+
+	int magic =	( p[4] << 0 ) |
+		( p[5] << 8 ) |
+		( p[6] << 16) |
+		( p[7] << 24);
+
+	if( 0x01 != magic )
+		return -1;
+
+	return p[8 + 8];
+}

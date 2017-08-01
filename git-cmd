@@ -1,0 +1,33 @@
+
+Git入门指令：
+1 git clone : 从远程主机克隆一个版本库,如：git clone http://10.91.214.137:9002/yindongping/cluster-service.git
+
+2 git pull : 更新代码，确保代码是库上最新代码，防止覆盖其他人的提交。
+
+3 git add xxx.c : 把修改后的文件加入到缓冲区，可使用git diff查看修改前后的文件差异。
+
+4 git commit ：提交入库到本地服务器中，这一步会加入注释，默认为nano编辑器
+git commit -m "xx"直接在命令行中添加注释
+
+5 git log ： 查看已提交的修改，是否正确
+
+6 git push：把本地服务器上的内容更新到远程服务器上，输入用户名和密码
+
+7 git reflog ： 查看命令历史，以便确定要回到未来的哪个版本
+
+8 git checkout -- filename ： 让文件回到最近一次git commit或git add时的状态
+
+设置git用户名/邮箱
+git config --global user.name [username]
+git config --global user.email [email]
+
+分支操作：
+1 创建分支并且切换到分支：git checkout -b dev2 Switched to a new branch 'dev'
+
+2 git branch ： 查看分支
+
+3 git merge dev ： 将次分支合并到主分支上面
+
+4 删除分支：git branch -d dev2 Deleted branch dev
+
+5 git log --praph ： 查看分支合并图

@@ -1,0 +1,13 @@
+#!/bin/sh
+while [ ! -e $1 ]
+   do
+           sleep 1
+   done
+   
+   while [ -z `cat $1` ]
+   do
+           sleep 1
+  done
+  
+  exit 0
+

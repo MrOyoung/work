@@ -1,0 +1,12 @@
+1.coredump.pdf : 指导文档
+
+2.coredump_testcase.c : 测试程序，内容为向空地址赋值，运行会报错
+
+3./proc/sys/kernel/core_pattern : 文件名格式（存储进程出错退出后的栈信息，二进制文件）
+如：|/usr/share/apport/apport %p %s %c %P
+
+4.ulimit -c : 设置core文件大小，若为0则该功能不可用
+	core file size          (blocks, -c) unlimited
+
+5.gdb 可执行文件 core_file : 显示错误的位置和进程收到的错误信号
+

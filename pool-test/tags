@@ -1,0 +1,91 @@
+HLIST_HEAD	list.h	/^#define HLIST_HEAD(name) struct hlist_head name = /
+HLIST_HEAD_INIT	list.h	602
+INIT_HLIST_HEAD	list.h	/^#define INIT_HLIST_HEAD(ptr) ((ptr)->first = NULL)/
+INIT_HLIST_NODE	list.h	/^static inline void INIT_HLIST_NODE(struct hlist_no/
+INIT_LIST_HEAD	list.h	/^static inline void INIT_LIST_HEAD(struct list_head/
+LIST_HEAD	list.h	/^#define LIST_HEAD(name) \\$/
+LIST_HEAD_INIT	list.h	/^#define LIST_HEAD_INIT(name) { &(name), &(name) }$/
+LIST_POISON1	list.h	33
+LIST_POISON2	list.h	34
+Mtest	test.c	/^int main(int argc,char** argv)$/
+PACKAGE_NAME	pool_template.h	/^#define PACKAGE_NAME(name,size) union  {\\$/
+POOL_TEMPLATE	pool_template.h	/^#define POOL_TEMPLATE( struct_name , pool_size , a/
+_HEAD_NAME_	pool_template.h	/^#define _HEAD_NAME_(name)    __head_##name$/
+_LINUX_LIST_H	list.h	2
+_LIST_HEAD_INIT_	pool_template.h	/^#define _LIST_HEAD_INIT_(name) LIST_HEAD( __head_#/
+_POOL_NAME_	pool_template.h	/^#define _POOL_NAME_(name)	 __pool_##name$/
+_POOL_TEMPLATE_H_	pool_template.h	2
+__hlist_del	list.h	/^static inline void __hlist_del(struct hlist_node */
+__list_add	list.h	/^static inline void __list_add(struct list_head *ne/
+__list_cut_position	list.h	/^static inline void __list_cut_position(struct list/
+__list_del	list.h	/^static inline void __list_del(struct list_head * p/
+__list_del_entry	list.h	/^static inline void __list_del_entry(struct list_he/
+__list_for_each	list.h	/^#define __list_for_each(pos, head) \\$/
+__list_splice	list.h	/^static inline void __list_splice(const struct list/
+a	test.c	6
+b	test.c	7
+c	test.c	8
+container_of	list.h	/^#define container_of(ptr, type, member) ({			\\$/
+d	test.c	9
+entry	test.c	5
+first	list.h	23
+hlist_add_after	list.h	/^static inline void hlist_add_after(struct hlist_no/
+hlist_add_before	list.h	/^static inline void hlist_add_before(struct hlist_n/
+hlist_add_fake	list.h	/^static inline void hlist_add_fake(struct hlist_nod/
+hlist_add_head	list.h	/^static inline void hlist_add_head(struct hlist_nod/
+hlist_del	list.h	/^static inline void hlist_del(struct hlist_node *n)/
+hlist_del_init	list.h	/^static inline void hlist_del_init(struct hlist_nod/
+hlist_empty	list.h	/^static inline int hlist_empty(const struct hlist_h/
+hlist_entry	list.h	/^#define hlist_entry(ptr, type, member) container_o/
+hlist_for_each	list.h	/^#define hlist_for_each(pos, head) \\$/
+hlist_for_each_entry	list.h	/^#define hlist_for_each_entry(tpos, pos, head, memb/
+hlist_for_each_entry_continue	list.h	/^#define hlist_for_each_entry_continue(tpos, pos, m/
+hlist_for_each_entry_from	list.h	/^#define hlist_for_each_entry_from(tpos, pos, membe/
+hlist_for_each_entry_safe	list.h	/^#define hlist_for_each_entry_safe(tpos, pos, n, he/
+hlist_for_each_safe	list.h	/^#define hlist_for_each_safe(pos, n, head) \\$/
+hlist_head	list.h	22
+hlist_move_list	list.h	/^static inline void hlist_move_list(struct hlist_he/
+hlist_node	list.h	29
+hlist_unhashed	list.h	/^static inline int hlist_unhashed(const struct hlis/
+list_add	list.h	/^static inline void list_add(struct list_head *new,/
+list_add_tail	list.h	/^static inline void list_add_tail(struct list_head /
+list_cut_position	list.h	/^static inline void list_cut_position(struct list_h/
+list_del	list.h	/^static inline void list_del(struct list_head *entr/
+list_del_init	list.h	/^static inline void list_del_init(struct list_head /
+list_empty	list.h	/^static inline int list_empty(const struct list_hea/
+list_empty_careful	list.h	/^static inline int list_empty_careful(const struct /
+list_entry	list.h	/^#define list_entry(ptr, type, member) \\$/
+list_first_entry	list.h	/^#define list_first_entry(ptr, type, member) \\$/
+list_for_each	list.h	/^#define list_for_each(pos, head) \\$/
+list_for_each_entry	list.h	/^#define list_for_each_entry(pos, head, member)				/
+list_for_each_entry_continue	list.h	/^#define list_for_each_entry_continue(pos, head, me/
+list_for_each_entry_continue_reverse	list.h	/^#define list_for_each_entry_continue_reverse(pos, /
+list_for_each_entry_from	list.h	/^#define list_for_each_entry_from(pos, head, member/
+list_for_each_entry_reverse	list.h	/^#define list_for_each_entry_reverse(pos, head, mem/
+list_for_each_entry_safe	list.h	/^#define list_for_each_entry_safe(pos, n, head, mem/
+list_for_each_entry_safe_continue	list.h	/^#define list_for_each_entry_safe_continue(pos, n, /
+list_for_each_entry_safe_from	list.h	/^#define list_for_each_entry_safe_from(pos, n, head/
+list_for_each_entry_safe_reverse	list.h	/^#define list_for_each_entry_safe_reverse(pos, n, h/
+list_for_each_prev	list.h	/^#define list_for_each_prev(pos, head) \\$/
+list_for_each_prev_safe	list.h	/^#define list_for_each_prev_safe(pos, n, head) \\$/
+list_for_each_safe	list.h	/^#define list_for_each_safe(pos, n, head) \\$/
+list_head	list.h	15
+list_is_last	list.h	/^static inline int list_is_last(const struct list_h/
+list_is_singular	list.h	/^static inline int list_is_singular(const struct li/
+list_move	list.h	/^static inline void list_move(struct list_head *lis/
+list_move_tail	list.h	/^static inline void list_move_tail(struct list_head/
+list_prepare_entry	list.h	/^#define list_prepare_entry(pos, head, member) \\$/
+list_replace	list.h	/^static inline void list_replace(struct list_head */
+list_replace_init	list.h	/^static inline void list_replace_init(struct list_h/
+list_rotate_left	list.h	/^static inline void list_rotate_left(struct list_he/
+list_safe_reset_next	list.h	/^#define list_safe_reset_next(pos, n, member)				\\$/
+list_splice	list.h	/^static inline void list_splice(const struct list_h/
+list_splice_init	list.h	/^static inline void list_splice_init(struct list_he/
+list_splice_tail	list.h	/^static inline void list_splice_tail(struct list_he/
+list_splice_tail_init	list.h	/^static inline void list_splice_tail_init(struct li/
+next	list.h	16
+next	list.h	30
+offsetof	list.h	/^#define offsetof(TYPE, MEMBER) ((size_t) &((TYPE */
+pprev	list.h	30
+prev	list.h	16
+swap	list.h	/^#define swap(a, b) \\$/
