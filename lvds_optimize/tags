@@ -1,0 +1,217 @@
+B4U	convert.c	144
+CHECK_EGL	tags	/^CHECK_EGL	wayland_egl.c	\/^#define CHECK_EGL(E) \\\\$/
+CHECK_EGL	wayland_egl.c	/^#define CHECK_EGL(E) \\$/
+ClipColorValue	convert.c	/^inline char ClipColorValue(int x)$/
+DEFAULT_DEVICE_NAME	main.c	26
+DEG2RAD	wayland_egl.c	81
+DEVICE_NAME	lvds_capture.c	53
+EGL_ERROR_CASE	wayland_egl.c	/^#define EGL_ERROR_CASE(E, F) case E: fprintf(stder/
+FIX	convert.c	/^#define FIX(x) ((int) ((x) * (1L << SCALEBITS) + 0/
+FIXUP	convert.c	/^#define FIXUP(Y)                 \\$/
+FLAGS	convert.c	322
+FPS_INTERVAL	util.c	46
+G4U	convert.c	147
+G4V	convert.c	148
+Identity	wayland_egl.c	64
+InitColorSpace	convert.c	/^void InitColorSpace()$/
+LOG_DEBUG	common.h	/^#define LOG_DEBUG(fmt, ...) printf("[%s:%s:%d] " f/
+LOG_ERROR	common.h	/^#define LOG_ERROR(fmt, ...) fprintf(stderr, "\\e[91/
+LOG_PERROR	common.h	/^#define LOG_PERROR(str) LOG_ERROR("%s error %d, %s/
+MASK_0	common.h	52
+MASK_1	common.h	53
+MASK_10	common.h	62
+MASK_11	common.h	63
+MASK_12	common.h	64
+MASK_13	common.h	65
+MASK_14	common.h	66
+MASK_15	common.h	67
+MASK_16	common.h	68
+MASK_17	common.h	69
+MASK_18	common.h	70
+MASK_19	common.h	71
+MASK_2	common.h	54
+MASK_20	common.h	72
+MASK_21	common.h	73
+MASK_22	common.h	74
+MASK_23	common.h	75
+MASK_24	common.h	76
+MASK_25	common.h	77
+MASK_26	common.h	78
+MASK_27	common.h	79
+MASK_28	common.h	80
+MASK_29	common.h	81
+MASK_3	common.h	55
+MASK_30	common.h	82
+MASK_31	common.h	83
+MASK_32	common.h	84
+MASK_4	common.h	56
+MASK_5	common.h	57
+MASK_6	common.h	58
+MASK_7	common.h	59
+MASK_8	common.h	60
+MASK_9	common.h	61
+Mmain	main.c	/^main(int argc, char *argv[])$/
+ModelViewProjectionMatrix	wayland_egl.c	72
+PIXEL_DEPTH	lvds_capture.c	55
+PIXEL_FORMAT	lvds_capture.c	54
+ProjectionMatrix	wayland_egl.c	75
+QueueBuff	lvds_capture.c	/^int QueueBuff(struct camera_ctx *ctx)$/
+R4V	convert.c	151
+READUV	convert.c	/^#define READUV(U,V) (tables[256 + (U)] + tables[51/
+READY	convert.c	/^#define READY(Y)    tables[Y]$/
+RGB4Y	convert.c	143
+ROUND	convert.c	/^#define ROUND(val, min, max) do {	\\$/
+SCALEBITS	convert.c	154
+STORE	convert.c	/^#define STORE(Y,DSTPTR)     \\$/
+SWindowData	wayland_egl.h	11
+U2ADD	convert.c	149
+V2ADD	convert.c	152
+ViewMatrix	wayland_egl.c	78
+Y2ADD	convert.c	145
+YUV420_RGB32	convert.c	/^void YUV420_RGB32(char *pRGB, char *pYUV,int Width/
+YUV420_RGB32_4Pixel	convert.c	/^inline void YUV420_RGB32_4Pixel(char *pRGB, char */
+YV12_to_RGB24	convert.c	/^bool YV12_to_RGB24(unsigned char* pYV12, unsigned /
+_CAMERA_H	lvds_capture.h	2
+_COMMON_H	common.h	25
+_CONVERT_H	convert.h	2
+_UTIL_H	util.h	25
+_WAYLAND_EGL_H	wayland_egl.h	2
+array_size	common.h	/^#define array_size(array) (sizeof(array)\/sizeof(ar/
+base_path	Makefile	3
+buffer	lvds_capture.c	62
+buffer	wayland_egl.h	79
+buffer_empty	wayland_egl.h	78
+buffers	lvds_capture.c	70
+buffers_nr	lvds_capture.c	71
+byte	common.h	35
+callback	wayland_egl.h	47
+camera_ctx	lvds_capture.c	67
+camera_get_frame_size	lvds_capture.c	/^camera_get_frame_size(struct camera_ctx *ctx)$/
+camera_get_height	lvds_capture.c	/^camera_get_height(struct camera_ctx *ctx)$/
+camera_get_width	lvds_capture.c	/^camera_get_width(struct camera_ctx *ctx)$/
+camera_init	lvds_capture.c	/^camera_init(char *dev_name)$/
+camera_read_frame	lvds_capture.c	/^camera_read_frame(struct camera_ctx *ctx, void **d/
+camera_start_capturing	lvds_capture.c	/^camera_start_capturing(struct camera_ctx *ctx)$/
+camera_stop_capturing	lvds_capture.c	/^camera_stop_capturing(struct camera_ctx *ctx)$/
+camera_terminate	lvds_capture.c	/^camera_terminate(struct camera_ctx *ctx)$/
+check_events	wayland_egl.c	/^void check_events(struct wl_display* display)$/
+closeEGL	wayland_egl.c	/^static void closeEGL(struct SWindowData *window)$/
+close_device	lvds_capture.c	/^close_device(struct camera_ctx *ctx)$/
+close_egl_all	wayland_egl.c	/^void close_egl_all(struct SWindowData *window)$/
+colAttribute	wayland_egl.h	76
+compositor	wayland_egl.h	22
+convertYUV420ToRGB32	convert.c	/^bool convertYUV420ToRGB32(const char *yuv,int widt/
+convert_yuyv_to_bgrx8888	convert.c	/^convert_yuyv_to_bgrx8888(void *dst, void *src, uin/
+converted	wayland_egl.c	289
+count	wayland_egl.c	920
+createShader	wayland_egl.c	/^static GLuint createShader(struct SWindowData *win/
+createSurface	wayland_egl.c	/^static void createSurface(struct SWindowData *wind/
+dbus_add_match	util.c	/^int dbus_add_match(DBusConnection* dbus, const cha/
+dbus_get_message	util.c	/^int dbus_get_message(DBusConnection* dbus, void* m/
+dbus_get_message_timeout	util.c	/^int dbus_get_message_timeout(DBusConnection* dbus,/
+dbus_init	util.c	/^pthread_t dbus_init()$/
+dbus_join	util.c	/^void dbus_join()$/
+dbus_send	util.c	/^int dbus_send(DBusConnection* dbus,void* array,int/
+dbus_send_noblocking	util.c	/^int dbus_send_noblocking( DBusConnection* dbus, vo/
+debug_hex_array	util.c	/^void debug_hex_array(const char* name , const byte/
+deg2rad	wayland_egl.c	82
+destroySurface	wayland_egl.c	/^static void destroySurface(struct SWindowData *win/
+dev_name	lvds_capture.c	68
+display	wayland_egl.h	14
+dword	common.h	37
+eglConfig	wayland_egl.h	59
+eglContext	wayland_egl.h	56
+eglDisplay	wayland_egl.h	53
+eglSurface	wayland_egl.h	50
+egl_rotate_x	wayland_egl.c	/^static GLfloat *egl_rotate_x(GLfloat * M, float an/
+egl_rotate_y	wayland_egl.c	/^static GLfloat *egl_rotate_y(GLfloat * M, float an/
+egl_rotate_z	wayland_egl.c	/^static GLfloat *egl_rotate_z(GLfloat * M, float an/
+egl_scale	wayland_egl.c	/^static GLfloat *egl_scale(GLfloat * M, float scale/
+egl_translation	wayland_egl.c	/^static GLfloat *egl_translation(GLfloat * M, float/
+fd	lvds_capture.c	69
+fragmentShaderSource	wayland_egl.c	208
+frameListener	wayland_egl.c	601
+frameListener	wayland_egl.c	807
+frame_count	util.c	52
+frustum	wayland_egl.c	/^static void frustum(GLfloat left, GLfloat right, G/
+g_B4U_Tab	convert.c	162
+g_G4U_Tab	convert.c	163
+g_G4V_Tab	convert.c	164
+g_R4V_Tab	convert.c	165
+g_RGB4Y_Tab	convert.c	160
+g_buf	lvds_capture.c	488
+get_dbus	util.c	/^DBusConnection* get_dbus(const char* well_known_na/
+get_frame_size	lvds_capture.c	/^get_frame_size(struct camera_ctx *ctx)$/
+get_tick_count	util.c	/^unsigned long get_tick_count()$/
+group	wayland_egl.h	30
+halfpi	wayland_egl.c	84
+handle_ivi_surface_configure	wayland_egl.c	/^handle_ivi_surface_configure(void *data, struct iv/
+height	lvds_capture.c	73
+height	wayland_egl.h	66
+hexs	util.c	353
+initEGL	wayland_egl.c	/^static void initEGL(struct SWindowData* window)$/
+initGL	wayland_egl.c	/^static void initGL(struct SWindowData *window)$/
+init_device	lvds_capture.c	/^init_device(struct camera_ctx *ctx)$/
+init_device	question-list.txt	/^Q2:lvds_capture.c FUNC:init_device()$/
+init_mmap	lvds_capture.c	/^init_mmap(struct camera_ctx *ctx)$/
+is_running	util.c	/^bool is_running()$/
+ivi_application	wayland_egl.h	38
+ivi_shell	wayland_egl.h	29
+ivi_surface	wayland_egl.h	40
+ivi_surface_listener	wayland_egl.c	527
+length	lvds_capture.c	64
+loadYUV	wayland_egl.c	/^void loadYUV(){$/
+mask	wayland_egl.h	62
+matrix_rmultiply	wayland_egl.c	/^static GLfloat *matrix_rmultiply(const GLfloat * A/
+mvp_matrix_loc	wayland_egl.c	62
+native	wayland_egl.h	32
+new_time	util.c	53
+old_time	util.c	53
+open_device	lvds_capture.c	/^open_device(struct camera_ctx *ctx)$/
+part_1	wayland_egl.c	290
+part_2	wayland_egl.c	291
+pi	wayland_egl.c	85
+plane	wayland_egl.h	81
+posAttribute	wayland_egl.h	72
+printEGLError	wayland_egl.c	/^static void printEGLError(const char *function)$/
+read_frame	lvds_capture.c	/^read_frame(struct camera_ctx *ctx, void **dest, un/
+redraw	wayland_egl.c	/^static void redraw(void *data, struct wl_callback /
+registry	wayland_egl.h	17
+registryHandleGlobal	wayland_egl.c	/^static void registryHandleGlobal(void *data, struc/
+registryHandleGlobalRemove	wayland_egl.c	/^static void registryHandleGlobalRemove(void *data,/
+registryListener	wayland_egl.c	846
+rotate_z	wayland_egl.c	/^static GLfloat *rotate_z(GLfloat * A, float angle)/
+rotationUniform	wayland_egl.h	69
+runing	util.c	82
+running	wayland_egl.c	854
+sclip_data	wayland_egl.c	/^void sclip_data(int convert_x,int convert_y,int co/
+shell	wayland_egl.h	27
+shell_surface	wayland_egl.h	44
+signalInt	wayland_egl.c	/^static void signalInt(int signum)$/
+start	lvds_capture.c	63
+surface	wayland_egl.h	35
+terminate_device	lvds_capture.c	/^terminate_device(struct camera_ctx *ctx)$/
+texUId	wayland_egl.c	218
+texVId	wayland_egl.c	219
+texYId	wayland_egl.c	217
+textureUniformU	wayland_egl.c	236
+textureUniformV	wayland_egl.c	236
+textureUniformY	wayland_egl.c	236
+translation	wayland_egl.c	/^static GLfloat *translation(GLfloat * M, float x, /
+twopi	wayland_egl.c	86
+util_show_fps	util.c	/^util_show_fps(void)$/
+vertexShaderSource	wayland_egl.c	195
+viewmatrix	wayland_egl.c	/^static void viewmatrix(void)$/
+wait	lvds_capture.c	490
+wayland_dispatch_event	wayland_egl.c	/^wayland_dispatch_event(struct SWindowData *window)/
+wayland_egl_init	wayland_egl.c	/^void wayland_egl_init(struct SWindowData *window)$/
+wayland_queue_buffer	wayland_egl.c	/^wayland_queue_buffer(struct SWindowData *window, v/
+width	lvds_capture.c	73
+width	wayland_egl.h	65
+word	common.h	36
+work_id	util.c	131
+work_thread	util.c	/^void* work_thread(void* args)$/
+x40080100	convert.c	322
+xioctl	lvds_capture.c	/^xioctl(int fh, int request, void *arg)$/
+yuv2rgb565_table	convert.c	344
+yuv420_2_rgb8888	convert.c	/^void yuv420_2_rgb8888(uint8_t  *dst_ptr_,$/

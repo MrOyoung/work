@@ -1,0 +1,12 @@
+Q1:wayland_egl.c LINE 869
+为什么buffer的大小设定为width*height*3/2 ?
+
+
+Q2:lvds_capture.c FUNC:init_device()
+VIDIOC_G_STD/VIDIOC_S_STD...这些flag代表什么意思，在哪里看？
+
+Q3:main.c 
+程序的流程控制，程序设计
+
+
+
