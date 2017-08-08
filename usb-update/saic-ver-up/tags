@@ -1,0 +1,97 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+BOOTLOADER_MAX_SIZE	cfg.h	19;"	d
+BOOTLOADER_PERFIX_NAME	cfg.h	12;"	d
+BOOT_CFG2_OFFSET	config.c	6;"	d	file:
+DBUS_INTERFACE	cfg.h	17;"	d
+DBUS_NAME	cfg.h	16;"	d
+KERNEL_MAX_SIZE	cfg.h	20;"	d
+KERNEL_PREFIX_NAME	cfg.h	13;"	d
+MMC_BOOT_DEV	update.c	5;"	d	file:
+MMC_CFG_DEV	config.c	5;"	d	file:
+MMC_KERNEL_SIZE	cfg.h	10;"	d
+MMC_KERNEL_START	cfg.h	9;"	d
+MMC_NAME	cfg.h	8;"	d
+SYSTEM_MAX_SIZE	cfg.h	21;"	d
+SYSTEM_PREFIX_NAME	cfg.h	14;"	d
+TARGET	Makefile	/^TARGET=saic_ver_up$/;"	m
+UBOOT_START	update.c	6;"	d	file:
+UDISK_FS_TYPE	cfg.h	6;"	d
+UDISK_MNT_DIR	cfg.h	5;"	d
+UEVENT_BUFFER_SIZE	usb.c	3;"	d	file:
+VER_FILE_SET_SIZE	misc.c	7;"	d	file:
+__BASE__H__	base.h	2;"	d
+___CONFIG_H___	cfg.h	2;"	d
+bootloader	cfg.h	/^	char *bootloader;$/;"	m	struct:__anon2
+check_file_size	update.c	/^static int check_file_size(char *filename, unsigned long max_size)$/;"	f	file:
+check_fileset_valid	misc.c	/^static int check_fileset_valid(char *str)$/;"	f	file:
+check_fileset_valid_init	misc.c	/^static void check_fileset_valid_init()$/;"	f	file:
+check_ver_file_valid	update.c	/^static int check_ver_file_valid(update_fileset *fileset)$/;"	f	file:
+checksum	cfg.h	/^	unsigned int checksum;$/;"	m	struct:__anon1
+checksum_cfg	config.c	/^static unsigned int checksum_cfg(update_cfg *cfg)$/;"	f	file:
+copy_file_to_mmc	update.c	/^static int copy_file_to_mmc(char *mmc_dev, unsigned long mmc_offset, char *file)$/;"	f	file:
+copy_file_with_size	update.c	/^static int copy_file_with_size(int fd_src, int fd_dst, unsigned long size)$/;"	f	file:
+create_version_update_dir	misc.c	/^static int create_version_update_dir(void)$/;"	f	file:
+curr_up_ver_id	config.c	/^int curr_up_ver_id(void)$/;"	f
+dbus_init	dbus.c	/^int dbus_init(void)$/;"	f
+dbus_msg_check_get_arg	dbus.c	/^int dbus_msg_check_get_arg(char **str)$/;"	f
+dbus_msg_check_no_param	dbus.c	/^int dbus_msg_check_no_param(void)$/;"	f
+dbus_msg_method	dbus.c	/^int dbus_msg_method(const char* method)$/;"	f
+dbus_thread	dbus.c	/^static void *dbus_thread(void *arg)$/;"	f	file:
+debug_mode	main.c	/^int debug_mode = 0;$/;"	v
+do_listfile	main.c	/^static int do_listfile(void)$/;"	f	file:
+do_query	main.c	/^static int do_query(void)$/;"	f	file:
+do_runnew	main.c	/^static int do_runnew(void)$/;"	f	file:
+do_setvalid	main.c	/^static int do_setvalid(void)$/;"	f	file:
+do_update	main.c	/^static int do_update(void)$/;"	f	file:
+g_conn	dbus.c	/^static DBusConnection *g_conn = NULL;$/;"	v	file:
+get_dbus_msg	dbus.c	/^DBusMessage *get_dbus_msg(void)$/;"	f
+get_u_disk_dev	usb.c	/^char *get_u_disk_dev(void)$/;"	f
+get_udisk_name	usb.c	/^static char *get_udisk_name(char *tmp)$/;"	f	file:
+get_update_fileset	config.c	/^update_fileset *get_update_fileset(void)$/;"	f
+get_update_process	update.c	/^int get_update_process(void)$/;"	f
+get_valid_ver_id	config.c	/^int get_valid_ver_id(void)$/;"	f
+get_version_fileset	misc.c	/^int get_version_fileset(void)$/;"	f
+global_update_cfg	config.c	/^static update_cfg global_update_cfg;$/;"	v	file:
+global_update_fileset	config.c	/^static update_fileset global_update_fileset;$/;"	v	file:
+init_hotplug_sock	usb.c	/^static int init_hotplug_sock()$/;"	f	file:
+is_kern_up	cfg.h	/^	int is_kern_up;$/;"	m	struct:__anon2
+is_sys_up	cfg.h	/^	int is_sys_up;$/;"	m	struct:__anon2
+kernel	cfg.h	/^	char *kernel;$/;"	m	struct:__anon2
+kernel_size	cfg.h	/^	unsigned int kernel_size[3];$/;"	m	struct:__anon1
+main	main.c	/^int main(int argc ,char** argv)$/;"	f
+msg_key	dbus.c	/^static pthread_key_t msg_key;$/;"	v	file:
+next_version	cfg.h	/^	unsigned int next_version;$/;"	m	struct:__anon1
+parse_ver_up_file	misc.c	/^int parse_ver_up_file(char *str)$/;"	f
+print_error	base.h	30;"	d
+process_add_device	usb.c	/^static void process_add_device(char *str)$/;"	f	file:
+process_dbus_request	main.c	/^int process_dbus_request(void)$/;"	f
+process_remove_device	usb.c	/^static void process_remove_device(char *str)$/;"	f	file:
+read_cfg_from_mmc	config.c	/^int read_cfg_from_mmc(void)$/;"	f
+release_dbus_msg	dbus.c	/^static int release_dbus_msg(void)$/;"	f	file:
+reply_dbus_msg	dbus.c	/^int reply_dbus_msg(int ret, char *str)$/;"	f
+run_version	cfg.h	/^	unsigned int run_version;$/;"	m	struct:__anon1
+set_cur_ver_valid	config.c	/^int set_cur_ver_valid(void)$/;"	f
+set_up_ver_run	config.c	/^int set_up_ver_run(int type)$/;"	f
+set_ver_kernel_size	config.c	/^int set_ver_kernel_size(int ver_id, unsigned long size)$/;"	f
+show_update_cfg	config.c	/^static void show_update_cfg(void)$/;"	f	file:
+start_dbus_thread	dbus.c	/^int start_dbus_thread(DBusMessage *msg)$/;"	f
+system	cfg.h	/^	char *system;$/;"	m	struct:__anon2
+system_id_map	cfg.h	/^	unsigned int system_id_map[3];$/;"	m	struct:__anon1
+u_disk_dev	usb.c	/^static char u_disk_dev[128];$/;"	v	file:
+udisk_hotplug_monitor	usb.c	/^void *udisk_hotplug_monitor(void *arg)$/;"	f
+up_size_curr	update.c	/^static unsigned long up_size_curr;$/;"	v	file:
+up_size_total	update.c	/^static unsigned long up_size_total;$/;"	v	file:
+update_bootloader	update.c	/^static int update_bootloader(const char *filename)$/;"	f	file:
+update_cfg	cfg.h	/^} update_cfg;$/;"	t	typeref:struct:__anon1
+update_fileset	cfg.h	/^} update_fileset;$/;"	t	typeref:struct:__anon2
+update_kernel	update.c	/^static int update_kernel(const char* filename, int ver_id)$/;"	f	file:
+update_system	update.c	/^static int update_system(const char *filename, int ver_id)$/;"	f	file:
+update_version	update.c	/^int update_version(void)$/;"	f
+valid_version	cfg.h	/^	unsigned int valid_version;$/;"	m	struct:__anon1
+version_update_init	misc.c	/^int version_update_init(void)$/;"	f
+write_cfg_to_mmc	config.c	/^static int write_cfg_to_mmc(void)$/;"	f	file:

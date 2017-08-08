@@ -1,0 +1,10 @@
+[Unit]
+Description=SAIC Version Update Server
+Requires=dbus.socket dbus_session.service
+After=dbus_session.service
+
+
+[Service]
+ExecStart=/sbin/saic_ver_up
+Restart=always
+

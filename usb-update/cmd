@@ -1,0 +1,12 @@
+dbus-send --session --type=method_call --print-reply --dest=saic.ver-up.server / ver.up.listfile
+
+dbus-send --session --type=method_call --print-reply --reply-timeout=180000 --dest=saic.ver-up.server / ver.up.update string:'bootloader_v1.0'
+
+dbus-send --session --type=method_call --print-reply --reply-timeout=180000 --dest=saic.ver-up.server / ver.up.update string:'kernel_v1.0'
+
+
+dbus-send --session --type=method_call --print-reply --dest=saic.ver-up.server / ver.up.runnew
+
+dbus-send --session --type=method_call --print-reply --dest=saic.ver-up.server / ver.up.setvalid
+
+

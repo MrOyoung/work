@@ -23,16 +23,15 @@
 #include <arpa/inet.h>
 #include <netinet/in.h>
 
-//#include <dbus/dbus-glib.h>
-//#include <dbus/dbus.h>
+#include <dbus/dbus-glib.h>
+#include <dbus/dbus.h>
 
 
 #define print_error(msg)		\
 	printf(" %s: errno:%d, %s, %d\n", msg, errno, __func__, __LINE__)
 
 extern int debug_mode;
-
-void *udisk_hotplug_monitor(void *arg);
+extern int reply_dbus_msg(int ret, char *str);
 
 #endif
 
