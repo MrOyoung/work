@@ -1,0 +1,1 @@
+/usr/bin/c++       CMakeFiles/hello_gmock.dir/HelloGmock.o CMakeFiles/hello_gmock.dir/HelloWorld.o  -o hello_gmock -rdynamic -lgmock -lgtest -lpthread 

@@ -1,0 +1,7 @@
+
+.PHONY:ECHO
+ECHO :
+	@echo I am Makefile-bak
+
+LIBS := -lpthread
+

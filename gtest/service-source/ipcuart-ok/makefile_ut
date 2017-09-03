@@ -1,0 +1,79 @@
+vpath %.c ../../util
+
+#可以使用VPATH变量也可以使用vpath后者可以分类指定头文件源文件的搜索路径
+#记住这样指定的路径仅仅是makefile本身查找头文件源文件的路径
+
+#在执行makefile时，还要指定gcc/g++搜索头文件库文件的搜索路径
+#-L //指定库文件搜索路径 
+#-ltest//指定使用的动态库/静态库
+#-I //指定搜索头文件的路径
+#-L.  L后面加一个点表示在当前目录下进行查找
+
+
+#*.c *.h
+#
+
+#参加编译的文件
+#如有新文件添加请在此添加
+#objects:=main.o    #remove main() of feature code part
+objects:=
+objects+=uart.o
+objects+=works.o 
+objects+=util.o
+#objects+=works_utest.o
+
+#最终生成的应用程序
+target:=ipc_uart_utest
+
+#编译器
+#CC:=arm-mel-linux-gcc
+CC:=gcc
+
+#编译选项
+#CFLAGS:=--sysroot=/opt/mentor-sysdk/2015.12/sysroots/cortexa9hf-vfp-neon-mel-linux-gnueabi/
+#CFLAGS+=-mfloat-abi=hard -mfpu=neon
+
+#CFLAGS+=-mtune=cortex-a9
+#CFLAGS:=-I/usr/include/dbus-1.0
+#CFLAGS+=-I/usr/lib/dbus-1.0/include
+#CFLAGS+=-I/usr/lib/glib-2.0/include/
+#CFLAGS+=-I/usr/include/glib-2.0/
+
+CFLAGS:=$(shell pkg-config glib-2.0 --cflags --libs)
+CFLAGS+=$(shell pkg-config dbus-1 --cflags --libs)
+
+
+CFLAGS+=-I../../include
+CFLAGS+=-fprofile-arcs -ftest-coverage -fPIC -O0
+#CFLAGS+=-L../../util
+#CFLAGS+=-I../../util/gtest
+
+
+#通过变量INC制定了头文件路径。头文件路径之间通过空格隔开。
+
+#需要链接的库
+LIBS:=-ldbus-glib-1 -ldbus-1 -lgobject-2.0 -lglib-2.0 
+LIBS+=-lpthread -lrt -lgtest -lgtest_main
+###################################################################################################
+
+#生成应用程序
+$(target):$(objects)
+	$(CXX) -o $@ $^ $(CXXFLAGS) $(LIBS)
+
+#包含依赖文件
+include $(objects:.o=.d)
+
+#生成相关的依赖文件
+%.d:%.c
+	@echo create depend file $@...
+	@$(CC) -MM $(CFLAGS) $< > $@.$$$$; \
+		sed 's,\($*\)\.o[ : ]*,\1.o $@ : ,g' < $@.$$$$ > $@; \
+		rm -f $@.$$$$
+
+%.o:%.c
+	$(CC) -c -o $@ $< $(CFLAGS)
+
+#清除所有的中间文件
+.PHONY:clean
+clean:
+	rm -fr $(target) $(objects) $(objects:.o=.d)

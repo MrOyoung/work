@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/user/nav/linux_rampup/gtest_rampup/hello_gtest/GreatestCommonDivisor.cpp
+GreatestCommonDivisor.h
+/home/user/nav/linux_rampup/gtest_rampup/hello_gtest/GreatestCommonDivisor.h
+iostream
+-
+
+/home/user/nav/linux_rampup/gtest_rampup/hello_gtest/GreatestCommonDivisor.h
+
+/home/user/nav/linux_rampup/gtest_rampup/hello_gtest/Hello_gtest.cpp
+gtest/gtest.h
+-
+Hello_gtest.h
+/home/user/nav/linux_rampup/gtest_rampup/hello_gtest/Hello_gtest.h
+
+/home/user/nav/linux_rampup/gtest_rampup/hello_gtest/Hello_gtest.h
+GreatestCommonDivisor.h
+/home/user/nav/linux_rampup/gtest_rampup/hello_gtest/GreatestCommonDivisor.h
+

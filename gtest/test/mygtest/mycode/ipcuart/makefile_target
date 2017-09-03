@@ -1,0 +1,55 @@
+vpath %.c ../../util
+
+#参加编译的文件
+#如有新文件添加请在此添加
+objects:=main.o
+objects+=uart.o
+objects+=works.o
+objects+=util.o
+
+#最终生成的应用程序
+target:=ipc_uart
+
+#编译器
+CC:=arm-mel-linux-gcc
+
+#编译选项
+CFLAGS:=--sysroot=/opt/mentor-sysdk/2015.12/sysroots/cortexa9hf-vfp-neon-mel-linux-gnueabi/
+CFLAGS+=-mfloat-abi=hard -mfpu=neon
+
+CFLAGS+=-mtune=cortex-a9
+CFLAGS+=-I=/usr/include/dbus-1.0
+CFLAGS+=-I=/usr/include/glib-2.0
+CFLAGS+=-I=/usr/lib/dbus-1.0/include
+CFLAGS+=-I=/usr/lib/glib-2.0/include
+
+CFLAGS+=-I../../include
+CFLAGS+=-O2
+
+
+#需要链接的库
+LIBS:=-ldbus-glib-1 -ldbus-1 -lgobject-2.0 -lglib-2.0
+LIBS+=-lpthread
+###################################################################################################
+
+#生成应用程序
+$(target):$(objects)
+	$(CC) -o $@ $^ $(CFLAGS) $(LIBS)
+	@if [ ! -z $(BINDIR) ] ; then \
+		mv -f $@ $(BINDIR)/$@; \
+	fi
+
+#包含依赖文件
+include $(objects:.o=.d)
+
+#生成相关的依赖文件
+%.d:%.c
+	@echo create depend file $@...
+	@$(CC) -MM $(CFLAGS) $< > $@.$$$$; \
+		sed 's,\($*\)\.o[ : ]*,\1.o $@ : ,g' < $@.$$$$ > $@; \
+		rm -f $@.$$$$
+
+#清除所有的中间文件
+.PHONY:clean
+clean:
+	rm -fr $(target) $(objects) $(objects:.o=.d)

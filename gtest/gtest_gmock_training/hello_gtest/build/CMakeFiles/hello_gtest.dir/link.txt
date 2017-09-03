@@ -1,0 +1,1 @@
+/usr/bin/c++       CMakeFiles/hello_gtest.dir/Hello_gtest.o CMakeFiles/hello_gtest.dir/GreatestCommonDivisor.o  -o hello_gtest -rdynamic -Wl,-Bstatic -lgtest_main -lgtest -Wl,-Bdynamic -lpthread 

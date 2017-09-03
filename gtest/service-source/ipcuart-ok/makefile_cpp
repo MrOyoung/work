@@ -1,0 +1,53 @@
+CC=gcc
+CPP=g++
+LINK=g++
+
+LIBS=-ldbus-glib-1 -ldbus-1 -lgobject-2.0 -lglib-2.0 \
+     -lpthread -lrt  
+     #-lpthread -lrt -lgtest -lgtest_main 
+
+#must add -fPIC option
+#CCFLAGS  = $(COMPILER_FLAGS) -c -g -fPIC -O0
+#CPPFLAGS = $(COMPILER_FLAGS) -c -g -fPIC -O0
+
+CCFLAGS  = $(COMPILER_FLAGS) -c -g -fprofile-arcs -ftest-coverage -fPIC -O0
+CPPFLAGS = $(COMPILER_FLAGS) -c -g -fprofile-arcs -ftest-coverage -fPIC -O0
+
+TARGET=ipc_uart_utest
+
+INCLUDES = -I. \
+            -I/usr/include/dbus-1.0 \
+            -I/usr/lib/glib-2.0/include/ \
+            -I/usr/include/glib-2.0/ \
+            -I../include/
+
+INCLUDES+=$(shell pkg-config glib-2.0 --cflags --libs)
+INCLUDES+=$(shell pkg-config dbus-1 --cflags --libs)
+
+
+CPPFILES = works_utest.cpp
+
+CFILES = uart.c \
+         works.c \
+         util.c
+
+OBJFILE = $(CFILES:.c=.o) $(CPPFILES:.cpp=.o)
+
+all:$(TARGET)
+
+$(TARGET):$(OBJFILE) 
+	@echo "starting linking ......"
+	$(LINK) $^ $(LIBS) -Wall -fPIC -o $@ -lgcov
+
+%.o:%.c  
+	@echo "compile *.c ..."
+	$(CC) -o $@ $(CCFLAGS) $< $(INCLUDES)
+	#$(CPP) -o $@ $(CCFLAGS) $< $(INCLUDES)
+
+%.o:%.cpp 
+	@echo "compile *.cpp ..."
+	$(CPP) -o $@ $(CPPFLAGS) $< $(INCLUDES)
+
+clean:
+	rm -rf $(TARGET)
+	rm -rf $(OBJFILE)

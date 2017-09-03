@@ -1,0 +1,493 @@
+#include "Message_Def.h"
+#include "Table_Def.h"
+#include "Module_Def.h"
+
+static const char* target_app[] = {
+   MODULE_APP_CLUSTER_PATH
+};
+
+static const char* target_app_aud[] = {
+    MODULE_APP_CLUSTER_PATH,
+    MODULE_SERVICE_AUDIO_MGR_PATH
+};
+
+static const char* target_app_sys[] = {
+    MODULE_APP_CLUSTER_PATH,
+    MODULE_SERVICE_SYSTEM_PATH
+};
+
+static const char* target_app_pwr[] = {
+    MODULE_APP_CLUSTER_PATH,
+    MODULE_SERVICE_POWER_PATH
+};
+
+static const char* target_app_cam[] = {
+	MODULE_APP_CLUSTER_PATH,
+	MODULE_SERVICE_CAMERA_PATH,
+};
+
+static const char* target_app_rvc[] = {
+	MODULE_APP_CLUSTER_PATH,
+	MODULE_CAMERA_PATH,
+};
+
+static const char* target_speed[] = {
+	KANZIAPP_SPEED_PATH
+};
+
+static const char* target_app_tach[] = {
+	KANZIAPP_TACH_PATH
+};
+
+static const char* target_tabicon[] = {
+	KANZIAPP_TABICON_PATH
+};
+
+static const char* target_background[] = {
+	KANZIAPP_BACKGROUND_PATH
+};
+
+
+
+
+/*软件次版本号*/
+__DECLARE_DATA_TABLE(SERVICE_DI_VERSION_SOFTWARE_MINOR) =  {
+    DATA_ENTRY( 0 ,  0 ,  8 , 0 , 0xff ),
+};
+
+/*软件主版本号*/
+__DECLARE_DATA_TABLE( SERVICE_DI_VERSION_SOFTWARE_MAJOR ) = {
+    DATA_ENTRY( 1 , 0 , 5 , 0 , 0x1f )
+};
+
+/*系统版本号*/
+__DECLARE_DATA_TABLE( SERVICE_DI_VERSION_INFORMATION )= {
+    DATA_ENTRY( 1 , 5 , 3 , 0 , 0x7 )
+};
+
+/*转速*/
+__DECLARE_DATA_TABLE( SERVICE_DI_TACHOMETER ) = {
+    DATA_ENTRY( 2 , 0 , 16 , 0 , 8000 ),
+};
+
+/*时间*/
+__DECLARE_DATA_TABLE( SERVICE_DI_DATE ) = {
+    //DATA_ENTRY( 4 , 0 , 32 ,  0 , 0xffffffff )
+    DATA_ENTRY( 84 , 0 , 8 ,  0 , 59 ),/*second*/
+    DATA_ENTRY( 85 , 0 , 8 ,  0 , 59 ),/*minute*/
+    DATA_ENTRY( 86 , 0 , 8 ,  0 , 24 ),/*hour*/
+    DATA_ENTRY( 87 , 0 , 8 ,  0 , 31 ),/*day*/
+    DATA_ENTRY( 88 , 0 , 8 ,  0 , 12 ),/*mouth*/
+    DATA_ENTRY( 89, 0 , 8 ,  0 , 99 ) /*year*/
+};
+
+/*速度*/
+__DECLARE_DATA_TABLE(SERVICE_DI_SPEED ) = {
+    DATA_ENTRY( 8 , 0 , 8 , 0 , 240 ),//speed
+};
+
+//发动机冷却液
+__DECLARE_DATA_TABLE( SERVICE_DI_ENGINE_COOLANT_TEMP ) = {
+    DATA_ENTRY( 9 , 0 , 8 , 0 , 255 )
+};
+
+//按键right
+__DECLARE_DATA_TABLE( SERVICE_DI_BUTTON_KEY_RIGHT ) = {
+    DATA_ENTRY( 10 , 0  , 2 , 0 , 2 )
+};
+
+//按键left
+__DECLARE_DATA_TABLE( SERVICE_DI_BUTTON_KEY_LEFT ) = {
+    DATA_ENTRY( 10 , 2 , 2 , 0 , 2 )
+};
+
+//按键up
+__DECLARE_DATA_TABLE( SERVICE_DI_BUTTON_KEY_UP ) = {
+    DATA_ENTRY( 10 , 4 , 2 , 0 , 2 )
+};
+
+//按键down
+__DECLARE_DATA_TABLE( SERVICE_DI_BUTTON_KEY_DOWN ) = {
+    DATA_ENTRY( 10 , 6 , 2 , 0 , 2 )
+};
+
+
+struct FlashAttr GearFlash[] = {
+    FLASH_DIR(),/*0*/
+    FLASH_DIR(),/*1*/
+    FLASH_ON( -1 , 2 , 500 , 2 , 500 ),/*2 reverse shift*/
+    FLASH_DIR(),/*3*/
+    FLASH_DIR(),/*4*/
+    FLASH_DIR(),/*5*/
+    FLASH_DIR(),/*6*/
+    FLASH_DIR(),/*7*/
+    FLASH_DIR(),/*8*/
+    FLASH_DIR(),/*9*/
+    FLASH_DIR(),/*10*/
+    FLASH_DIR(),/*11*/
+    FLASH_DIR(),/*12*/
+    FLASH_DIR(),/*13*/
+    FLASH_DIR(),/*14*/
+    
+    FLASH_RESET()
+};
+
+__DECLARE_DATA_TABLE( SERVICE_DI_GEAR ) = {
+    DATA_ENTRY( 11 , 0 , 4 , 0 , 14 )
+};
+
+__DECLARE_DATA_TABLE( SERVICE_DI_BACKLIGHT ) = {
+    DATA_ENTRY( 11 , 4 , 2 , 1 , 3 )
+};
+
+__DECLARE_DATA_TABLE( SERVICE_DI_POWER_MODE ) = {
+    DATA_ENTRY( 11 , 6 , 2 ,  0 , 3 )
+};
+
+/*DOOR LF*/
+__DECLARE_DATA_TABLE( SERVICE_DI_DOOR_LF_OPEN_RUN ) = {
+    DATA_ENTRY( 12 , 0 , 1 , 0 , 1 ),
+   DATA_ENTRY( 12 , 1 , 2 , 0 , 2 ) 
+};
+__DECLARE_DATA_TABLE( SERVICE_DI_DOOR_LF_OPEN_STOP ) = {
+    DATA_ENTRY( 12 , 0 , 1 , 0 , 1 ),
+   DATA_ENTRY( 12 , 1 , 2 , 0 , 2 ) 
+};
+__DECLARE_DATA_TABLE( SERVICE_DI_DOOR_LF_OPEN_POWEROFF ) = {
+    DATA_ENTRY( 12 , 0 , 1 , 0 , 1 ),
+   DATA_ENTRY( 12 , 1 , 2 , 0 , 2 ) 
+};
+
+/*DOOR RF*/
+__DECLARE_DATA_TABLE( SERVICE_DI_DOOR_RF_OPEN_RUN ) = {
+    DATA_ENTRY( 12 , 3 , 1 , 0 , 1 ),
+    DATA_ENTRY( 12 , 4 , 2 , 0 , 2 )
+};
+__DECLARE_DATA_TABLE( SERVICE_DI_DOOR_RF_OPEN_STOP ) = {
+    DATA_ENTRY( 12 , 3 , 1 , 0 , 1 ),
+    DATA_ENTRY( 12 , 4 , 2 , 0 , 2 )
+};
+__DECLARE_DATA_TABLE( SERVICE_DI_DOOR_RF_OPEN_POWEROFF ) = {
+    DATA_ENTRY( 12 , 3 , 1 , 0 , 1 ),
+    DATA_ENTRY( 12 , 4 , 2 , 0 , 2 )
+};
+
+/*DOOR LB*/
+__DECLARE_DATA_TABLE( SERVICE_DI_DOOR_LB_OPEN_RUN ) = {
+    DATA_ENTRY( 13 , 0 , 1 , 0 , 1 ),
+    DATA_ENTRY( 13 , 1 , 2 , 0 , 2 )
+};
+__DECLARE_DATA_TABLE( SERVICE_DI_DOOR_LB_OPEN_STOP ) = {
+    DATA_ENTRY( 13 , 0 , 1 , 0 , 1 ),
+    DATA_ENTRY( 13 , 1 , 2 , 0 , 2 )
+};
+__DECLARE_DATA_TABLE( SERVICE_DI_DOOR_LB_OPEN_POWEROFF ) = {
+    DATA_ENTRY( 13 , 0 , 1 , 0 , 1 ),
+    DATA_ENTRY( 13 , 1 , 2 , 0 , 2 )
+};
+
+/*DOOR RB*/
+__DECLARE_DATA_TABLE( SERVICE_DI_DOOR_RB_OPEN_RUN ) = {
+    DATA_ENTRY( 13 , 3 , 1, 0 , 1 ),
+    DATA_ENTRY( 13 , 4 , 2 , 0 , 2 )
+};
+__DECLARE_DATA_TABLE( SERVICE_DI_DOOR_RB_OPEN_STOP ) = {
+    DATA_ENTRY( 13 , 3 , 1, 0 , 1 ),
+    DATA_ENTRY( 13 , 4 , 2 , 0 , 2 )
+};
+__DECLARE_DATA_TABLE( SERVICE_DI_DOOR_RB_OPEN_POWEROFF ) = {
+    DATA_ENTRY( 13 , 3 , 1, 0 , 1 ),
+    DATA_ENTRY( 13 , 4 , 2 , 0 , 2 )
+};
+
+/*DOOR EC*/
+__DECLARE_DATA_TABLE( SERVICE_DI_DOOR_EC_OPEN_RUN ) = {
+    DATA_ENTRY( 14 , 0 , 1 , 0 , 1 ),
+    DATA_ENTRY( 14 , 1 , 2 , 0 , 2 )
+};
+__DECLARE_DATA_TABLE( SERVICE_DI_DOOR_EC_OPEN_STOP ) = {
+    DATA_ENTRY( 14 , 0 , 1 , 0 , 1 ),
+    DATA_ENTRY( 14 , 1 , 2 , 0 , 2 )
+};
+__DECLARE_DATA_TABLE( SERVICE_DI_DOOR_EC_OPEN_POWEROFF ) = {
+    DATA_ENTRY( 14 , 0 , 1 , 0 , 1 ),
+    DATA_ENTRY( 14 , 1 , 2 , 0 , 2 )
+};
+
+/*DOOR T*/
+__DECLARE_DATA_TABLE( SERVICE_DI_DOOR_T_OPEN_RUN ) = {
+    DATA_ENTRY( 14 , 3 ,  1 , 0 ,1 ),
+   DATA_ENTRY( 14 , 4 , 2 , 0 , 2 ) 
+};
+__DECLARE_DATA_TABLE( SERVICE_DI_DOOR_T_OPEN_STOP ) = {
+    DATA_ENTRY( 14 , 3 ,  1 , 0 ,1 ),
+   DATA_ENTRY( 14 , 4 , 2 , 0 , 2 ) 
+};
+__DECLARE_DATA_TABLE( SERVICE_DI_DOOR_T_OPEN_POWEROFF ) = {
+    DATA_ENTRY( 14 , 3 ,  1 , 0 ,1 ),
+   DATA_ENTRY( 14 , 4 , 2 , 0 , 2 ) 
+};
+
+
+
+__DECLARE_DATA_TABLE( SERVICE_DI_ODOMETER ) = {
+    DATA_ENTRY( 15 , 0 , 24 ,  0 , 999999 )
+};
+
+__DECLARE_DATA_TABLE( SERVICE_DI_AVERAGE_SPEED_A ) = {
+    DATA_ENTRY( 18 , 0 , 8 , 0 , 240 )
+};
+
+__DECLARE_DATA_TABLE( SERVICE_DI_INSTRUMENT_TOPIC ) = {
+    DATA_ENTRY( 19 , 0  , 4 ,  0 , 1 )
+};
+
+__DECLARE_DATA_TABLE( SERVICE_DI_BUTTON_KEY_ENTER ) = {
+    DATA_ENTRY( 19 , 4 , 2 , 0 , 2 )
+};
+
+__DECLARE_DATA_TABLE( SERVICE_DI_BUTTON_KEY_6 ) = {
+    DATA_ENTRY( 19 , 6 , 2 , 0 , 2 )
+};
+
+__DECLARE_DATA_TABLE( SERVICE_DI_MILAGE ) = {
+    DATA_ENTRY( 20 , 0 , 16 , 0 , 999 )
+};
+
+__DECLARE_DATA_TABLE( SERVICE_DI_TRIPMETER_A ) = {
+    DATA_ENTRY( 22 , 0 , 24 , 0 , 999999 )
+};
+
+__DECLARE_DATA_TABLE( SERVICE_DI_FUEL_GAUGE ) = {
+    DATA_ENTRY( 25 , 0 , 8 , 0 , 100 ),
+    DATA_ENTRY( 80 , 0 , 8 , 0 , 100 ),
+    DATA_ENTRY( 81 , 0 , 8 , 0 , 100 ),
+    DATA_ENTRY( 82 , 0 , 8 , 0 , 100 ),
+    DATA_ENTRY( 83 , 0 , 8 , 0 , 100 )
+};
+
+__DECLARE_DATA_TABLE( SERVICE_DI_SPEED_LIMIT ) = {
+    DATA_ENTRY( 29 , 0 , 8 , 0 , 240 )
+};
+
+__DECLARE_DATA_TABLE( SERVICE_DI_DIS_TO_NEXT_MAINTENANCE ) = {
+    DATA_ENTRY( 30 , 0 , 16 , 0 , 65535 )
+};
+
+__DECLARE_DATA_TABLE( SERVICE_DI_OUTSIDE_AIR_TEMP ) = {
+    DATA_ENTRY( 32 , 0 , 8 , 0 , 255 )
+};
+
+__DECLARE_DATA_TABLE( SERVICE_DI_AVERAGE_FUEL_CONSUMPTION_A1 ) = {
+    DATA_ENTRY( 34 , 0 , 16 , 0 , 300 )
+};
+
+__DECLARE_DATA_TABLE( SERVICE_DI_INSTANTANEOUS_FUEL_CONSUMPTION1 ) = {
+    DATA_ENTRY( 36 , 0 , 15 , 0 , 450 )
+};
+
+__DECLARE_DATA_TABLE( SERVICE_DI_LCD_TEMP ) = {
+    DATA_ENTRY( 40 , 0 , 8 , 0 , 255 )
+};
+
+__DECLARE_DATA_TABLE( SERVICE_DI_DRIVE_TIME_A ) = {
+    DATA_ENTRY( 41 , 0 , 24 , 0 , 99999 )
+};
+
+__DECLARE_DATA_TABLE( SERVICE_DI_TRIPMETER_C ) = {
+    DATA_ENTRY( 44, 0 , 24 , 0 , 0xffffff )
+};
+__DECLARE_DATA_TABLE( SERVICE_DI_AVERAGE_FUEL_CONSUMPTION_C1 ) = {
+    DATA_ENTRY( 47 , 0 , 16 , 0 , 300 )
+};
+__DECLARE_DATA_TABLE( SERVICE_DI_AVERAGE_SPEED_C ) = {
+    DATA_ENTRY( 49 , 0 , 8 , 0 , 240 )
+};
+
+__DECLARE_DATA_TABLE( SERVICE_DI_DRIVE_TIME_C ) = {
+    DATA_ENTRY( 50 , 0 , 24 , 0 , 99999 )
+};
+
+__DECLARE_DATA_TABLE( SERVICE_DI_AVERAGE_FUEL_CONSUMPTION_TREND_SAMPING ) = {
+    DATA_ENTRY( 53 , 0 , 16 , 0 , 300 ),
+    DATA_ENTRY( 55 , 0 , 16 , 0 , 300 ),
+    DATA_ENTRY( 57 , 0 , 16 , 0 , 300 ),
+    DATA_ENTRY( 59 , 0 , 16 , 0 , 300 ),
+    DATA_ENTRY( 61 , 0 , 16 , 0 , 300 ),
+};
+
+__DECLARE_DATA_TABLE( SERVICE_DI_STEERING_WHEEL_ANGLE ) = {
+    DATA_ENTRY( 63 , 0 , 16 , 0 , 0xffff )
+};
+
+__DECLARE_DATA_TABLE( SERVICE_DI_BATTERY_STATUS_DISPLAY ) = {
+    DATA_ENTRY( 65 , 0 , 8 , 0 , 18 )
+};
+
+__DECLARE_DATA_TABLE( SERVICE_DI_BATTERY_STATUS_SOC_STATE ) = {
+    DATA_ENTRY( 66 , 0 , 8 , 0 , 100 )
+};
+
+__DECLARE_DATA_TABLE( SERVICE_DI_TYRE_PRESSURE ) = {
+    DATA_ENTRY( 67 , 0 , 16 , 0 , 0xffff )
+};
+
+__DECLARE_DATA_TABLE( SERVICE_DI_THROTTLE_POSITION ) = {
+    DATA_ENTRY( 69 , 0 , 24 , 0 , 0xffffff )
+};
+
+__DECLARE_DATA_TABLE( SERVICE_DI_FRONT_LEFT_OBSTACLE_RANGE ) = {
+    DATA_ENTRY( 72 , 0 , 4 , 0 , 15 )
+};
+__DECLARE_DATA_TABLE( SERVICE_DI_FRONT_RIGHT_OBSTACLE_RANGE ) = {
+    DATA_ENTRY( 72 , 4 , 4 , 0 , 15 ) 
+};
+
+__DECLARE_DATA_TABLE( SERVICE_DI_FRONT_MIDDLE_LEFT_OBSTACLE_RANGE ) = {
+    DATA_ENTRY( 73 , 0 , 4 , 0 , 15 )
+};
+
+
+__DECLARE_DATA_TABLE( SERVICE_DI_FRONT_MIDDLE_RIGHT_OBSTACLE_RANGE ) = {
+    DATA_ENTRY( 73 , 4 , 4 , 0 , 15 )
+};
+
+__DECLARE_DATA_TABLE( SERVICE_DI_REAR_LEFT_OBSTACLE_RANGE ) = {
+    DATA_ENTRY( 74 , 0 , 4 , 0 , 15 )
+};
+
+__DECLARE_DATA_TABLE( SERVICE_DI_REAR_RIGHT_OBSTACLE_RANGE ) = {
+    DATA_ENTRY( 74 , 4 , 4 , 0 , 15 )
+};
+
+__DECLARE_DATA_TABLE( SERVICE_DI_REAR_MIDDLE_LEFT_OBSTACLE_RANGE ) = {
+    DATA_ENTRY( 75 , 0 , 4 , 0 , 15 )
+};
+
+__DECLARE_DATA_TABLE( SERVICE_DI_REAR_MIDDLE_RIGHT_OBSTACLE_RANGE ) = {
+    DATA_ENTRY( 75 , 4 , 4 , 0 , 15 )
+};
+
+__DECLARE_DATA_TABLE( SERVICE_DI_FRONT_CLOSEST_OBSTACLE_DISTANCE ) = {
+    DATA_ENTRY( 76 , 0 , 8 , 0 ,255 )
+};
+__DECLARE_DATA_TABLE( SERVICE_DI_REAR_CLOSEST_OBSTACLE_DISTANCE ) = {
+    DATA_ENTRY( 77 , 0 , 8 , 0 , 255 )
+};
+__DECLARE_DATA_TABLE( SERVICE_DI_WORKMODE ) = {
+    DATA_ENTRY( 78 , 0 , 8 , 0 , 2 )
+};
+
+__DECLARE_DATA_TABLE( SERVICE_DI_AT_OR_MT ) = {
+    DATA_ENTRY( 79 , 0 , 8 , 0 , 0xff )
+};
+
+/* *******************************************************
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ * *************************************************** */
+
+
+int do_nothing_entry(DBusConnection* dbus,struct MsgAttr* msg, byte* frame);
+int do_msg_speed_mix_power_entry(DBusConnection* dbus,struct MsgAttr* msg, byte* frame); 
+
+//{{{{
+
+struct MsgAttr GeneralMsgTable[] = {
+ ///   __DECLARE_MSG_ENTRY( SERVICE_DI_VERSION_SOFTWARE_MAJOR ,  target_app ),
+ ///   __DECLARE_MSG_ENTRY( SERVICE_DI_VERSION_SOFTWARE_MINOR , target_app ),
+ ///   __DECLARE_MSG_ENTRY( SERVICE_DI_VERSION_INFORMATION ,  target_app ),
+    __DECLARE_MSG_ENTRY( SERVICE_DI_TACHOMETER ,   target_app_tach ),
+    __DECLARE_MSG_ENTRY( SERVICE_DI_DATE , target_tabicon  ),
+    __DECLARE_MSG_ENTRY( SERVICE_DI_SPEED , target_speed ),
+    __DECLARE_MSG_ENTRY( SERVICE_DI_ENGINE_COOLANT_TEMP , target_background ),
+    __DECLARE_MSG_ENTRY( SERVICE_DI_BUTTON_KEY_RIGHT , target_tabicon ),
+    __DECLARE_MSG_ENTRY( SERVICE_DI_BUTTON_KEY_LEFT , target_tabicon ),
+    __DECLARE_MSG_ENTRY( SERVICE_DI_BUTTON_KEY_UP , target_tabicon ),
+    __DECLARE_MSG_ENTRY( SERVICE_DI_BUTTON_KEY_DOWN , target_tabicon ),
+    __DECLARE_MSG_ENTRY( SERVICE_DI_GEAR , target_app_cam ),
+    __DECLARE_MSG_ENTRY( SERVICE_DI_BACKLIGHT , target_tabicon ),
+    __DECLARE_MSG_ENTRY( SERVICE_DI_POWER_MODE , target_app_pwr ),
+    
+/*doors begin*/   
+    __DECLARE_MSG_ENTRY( SERVICE_DI_DOOR_LF_OPEN_RUN, target_app ),
+	__DECLARE_MSG_ENTRY( SERVICE_DI_DOOR_LF_OPEN_STOP, target_app ),
+	__DECLARE_MSG_ENTRY( SERVICE_DI_DOOR_LF_OPEN_POWEROFF, target_app ),
+	
+	__DECLARE_MSG_ENTRY( SERVICE_DI_DOOR_RF_OPEN_RUN, target_app ),
+	__DECLARE_MSG_ENTRY( SERVICE_DI_DOOR_RF_OPEN_STOP, target_app ),
+	__DECLARE_MSG_ENTRY( SERVICE_DI_DOOR_RF_OPEN_POWEROFF, target_app ),
+	
+	__DECLARE_MSG_ENTRY( SERVICE_DI_DOOR_LB_OPEN_RUN, target_app ),
+	__DECLARE_MSG_ENTRY( SERVICE_DI_DOOR_LB_OPEN_STOP, target_app ),
+	__DECLARE_MSG_ENTRY( SERVICE_DI_DOOR_LB_OPEN_POWEROFF, target_app ),
+	
+	__DECLARE_MSG_ENTRY( SERVICE_DI_DOOR_RB_OPEN_RUN, target_app ),
+	__DECLARE_MSG_ENTRY( SERVICE_DI_DOOR_RB_OPEN_STOP, target_app ),
+	__DECLARE_MSG_ENTRY( SERVICE_DI_DOOR_RB_OPEN_POWEROFF, target_app ),
+	
+	__DECLARE_MSG_ENTRY( SERVICE_DI_DOOR_EC_OPEN_RUN, target_app ),
+	__DECLARE_MSG_ENTRY( SERVICE_DI_DOOR_EC_OPEN_STOP, target_app ),
+	__DECLARE_MSG_ENTRY( SERVICE_DI_DOOR_EC_OPEN_POWEROFF, target_app ),
+	
+	__DECLARE_MSG_ENTRY( SERVICE_DI_DOOR_T_OPEN_RUN, target_app ),
+	__DECLARE_MSG_ENTRY( SERVICE_DI_DOOR_T_OPEN_STOP, target_app ),
+	__DECLARE_MSG_ENTRY( SERVICE_DI_DOOR_T_OPEN_POWEROFF, target_app ),
+/*doors end*/ 
+    
+    __DECLARE_MSG_ENTRY( SERVICE_DI_ODOMETER , target_background ),
+    __DECLARE_MSG_ENTRY( SERVICE_DI_AVERAGE_SPEED_A , target_tabicon ),
+    __DECLARE_MSG_ENTRY( SERVICE_DI_INSTRUMENT_TOPIC , target_speed ),
+    __DECLARE_MSG_ENTRY( SERVICE_DI_BUTTON_KEY_ENTER , target_tabicon ),
+   /// __DECLARE_MSG_ENTRY( SERVICE_DI_BUTTON_KEY_6 , target_tabicon ),
+    __DECLARE_MSG_ENTRY( SERVICE_DI_MILAGE , target_background ),
+    __DECLARE_MSG_ENTRY( SERVICE_DI_TRIPMETER_A , target_tabicon ),
+    __DECLARE_MSG_ENTRY( SERVICE_DI_FUEL_GAUGE , target_background ),
+    __DECLARE_MSG_ENTRY( SERVICE_DI_SPEED_LIMIT , target_tabicon ),
+    __DECLARE_MSG_ENTRY( SERVICE_DI_DIS_TO_NEXT_MAINTENANCE , target_tabicon ),
+    __DECLARE_MSG_ENTRY( SERVICE_DI_OUTSIDE_AIR_TEMP , target_app ),
+    __DECLARE_MSG_ENTRY( SERVICE_DI_AVERAGE_FUEL_CONSUMPTION_A1 , target_tabicon ),
+    __DECLARE_MSG_ENTRY( SERVICE_DI_INSTANTANEOUS_FUEL_CONSUMPTION1 , target_tabicon ),
+    __DECLARE_MSG_ENTRY( SERVICE_DI_LCD_TEMP , target_app ),
+    __DECLARE_MSG_ENTRY( SERVICE_DI_DRIVE_TIME_A , target_tabicon ),
+    __DECLARE_MSG_ENTRY( SERVICE_DI_TRIPMETER_C , target_tabicon ),
+    __DECLARE_MSG_ENTRY( SERVICE_DI_AVERAGE_FUEL_CONSUMPTION_C1 , target_tabicon ),
+    __DECLARE_MSG_ENTRY( SERVICE_DI_AVERAGE_SPEED_C , target_tabicon ),
+    __DECLARE_MSG_ENTRY( SERVICE_DI_DRIVE_TIME_C , target_tabicon ),
+    __DECLARE_MSG_ENTRY( SERVICE_DI_AVERAGE_FUEL_CONSUMPTION_TREND_SAMPING , target_tabicon ),
+    __DECLARE_MSG_ENTRY( SERVICE_DI_STEERING_WHEEL_ANGLE , target_tabicon ),
+    __DECLARE_MSG_ENTRY( SERVICE_DI_BATTERY_STATUS_DISPLAY , target_tabicon ),
+    __DECLARE_MSG_ENTRY( SERVICE_DI_BATTERY_STATUS_SOC_STATE , target_tabicon ),
+    __DECLARE_MSG_ENTRY( SERVICE_DI_TYRE_PRESSURE , target_app ),
+    __DECLARE_MSG_ENTRY( SERVICE_DI_THROTTLE_POSITION , target_tabicon ),
+    __DECLARE_MSG_ENTRY( SERVICE_DI_FRONT_LEFT_OBSTACLE_RANGE , target_app ),
+    __DECLARE_MSG_ENTRY( SERVICE_DI_FRONT_RIGHT_OBSTACLE_RANGE , target_app ),
+    __DECLARE_MSG_ENTRY( SERVICE_DI_FRONT_MIDDLE_LEFT_OBSTACLE_RANGE , target_app ),
+    __DECLARE_MSG_ENTRY( SERVICE_DI_FRONT_MIDDLE_RIGHT_OBSTACLE_RANGE , target_app ),
+    __DECLARE_MSG_ENTRY( SERVICE_DI_REAR_LEFT_OBSTACLE_RANGE , target_app ),
+    __DECLARE_MSG_ENTRY( SERVICE_DI_REAR_RIGHT_OBSTACLE_RANGE , target_app ),
+    __DECLARE_MSG_ENTRY( SERVICE_DI_REAR_MIDDLE_LEFT_OBSTACLE_RANGE , target_app ),
+    __DECLARE_MSG_ENTRY( SERVICE_DI_REAR_MIDDLE_RIGHT_OBSTACLE_RANGE , target_app ),
+    __DECLARE_MSG_ENTRY( SERVICE_DI_FRONT_CLOSEST_OBSTACLE_DISTANCE , target_app ),
+    __DECLARE_MSG_ENTRY( SERVICE_DI_REAR_CLOSEST_OBSTACLE_DISTANCE , target_app ),
+    __DECLARE_MSG_ENTRY( SERVICE_DI_WORKMODE , target_app ),
+    __DECLARE_MSG_ENTRY( SERVICE_DI_AT_OR_MT , target_app )
+};
+
+const int general_size = array_size(GeneralMsgTable);
+
+
+
+
+
+
+
+
+
+
+

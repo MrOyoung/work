@@ -1,0 +1,12 @@
+PROJECT(HELLO_GTEST)
+SET(SRC_LIST Hello_gtest.cpp GreatestCommonDivisor.cpp)
+LINK_DIRECTORIES(/usr/lib/)
+FIND_PACKAGE(Threads REQUIRED)
+ADD_EXECUTABLE(hello_gtest ${SRC_LIST})
+#TARGET_LINK_LIBRARIES(hello_gtest libgtest.a libgtest_main.a libpthread)
+#TARGET_LINK_LIBRARIES(hello_gtest libgtest.a libgtest_main.a pthread)
+#TARGET_LINK_LIBRARIES(hello_gtest libgtest.a libgtest_main.a libpthread.a)
+#TARGET_LINK_LIBRARIES(hello_gtest libgtest.a libgtest_main.a)
+#TARGET_LINK_LIBRARIES(hello_gtest libgtest.a libgtest_main.a ${CMAKE_THREAD_LIBS_INIT})
+TARGET_LINK_LIBRARIES(hello_gtest libgtest_main.a libgtest.a pthread)
+

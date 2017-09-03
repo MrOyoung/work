@@ -1,0 +1,912 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ACTIVITYMGR_CLUSTER	include/Module_Def.h	/^	ACTIVITYMGR_CLUSTER,$/;"	e	enum:__anon4
+ACTIVITYMGR_CLUSTER	pkg_log_msg/app_c++/Module_Def.h	/^	ACTIVITYMGR_CLUSTER,$/;"	e	enum:__anon7
+ACTIVITYMGR_CLUSTER	pkg_log_msg/demo-log-dbus/Module_Def.h	/^	ACTIVITYMGR_CLUSTER,$/;"	e	enum:__anon6
+ACTIVITYMGR_CLUSTER	pkg_log_msg/demo-log-socket/Module_Def.h	/^	ACTIVITYMGR_CLUSTER,$/;"	e	enum:__anon5
+ACTIVITYMGR_CLUSTER_INTERFACE	include/Module_Def.h	212;"	d
+ACTIVITYMGR_CLUSTER_INTERFACE	pkg_log_msg/app_c++/Module_Def.h	200;"	d
+ACTIVITYMGR_CLUSTER_INTERFACE	pkg_log_msg/demo-log-dbus/Module_Def.h	212;"	d
+ACTIVITYMGR_CLUSTER_INTERFACE	pkg_log_msg/demo-log-socket/Module_Def.h	212;"	d
+ACTIVITYMGR_CLUSTER_NAME	include/Module_Def.h	211;"	d
+ACTIVITYMGR_CLUSTER_NAME	pkg_log_msg/app_c++/Module_Def.h	199;"	d
+ACTIVITYMGR_CLUSTER_NAME	pkg_log_msg/demo-log-dbus/Module_Def.h	211;"	d
+ACTIVITYMGR_CLUSTER_NAME	pkg_log_msg/demo-log-socket/Module_Def.h	211;"	d
+ACTIVITYMGR_CLUSTER_NICK	include/Module_Def.h	210;"	d
+ACTIVITYMGR_CLUSTER_NICK	pkg_log_msg/app_c++/Module_Def.h	198;"	d
+ACTIVITYMGR_CLUSTER_NICK	pkg_log_msg/demo-log-dbus/Module_Def.h	210;"	d
+ACTIVITYMGR_CLUSTER_NICK	pkg_log_msg/demo-log-socket/Module_Def.h	210;"	d
+ACTIVITYMGR_CLUSTER_PATH	include/Module_Def.h	213;"	d
+ACTIVITYMGR_CLUSTER_PATH	pkg_log_msg/app_c++/Module_Def.h	201;"	d
+ACTIVITYMGR_CLUSTER_PATH	pkg_log_msg/demo-log-dbus/Module_Def.h	213;"	d
+ACTIVITYMGR_CLUSTER_PATH	pkg_log_msg/demo-log-socket/Module_Def.h	213;"	d
+ACTIVITYMGR_LVDS	include/Module_Def.h	/^	ACTIVITYMGR_LVDS,$/;"	e	enum:__anon4
+ACTIVITYMGR_LVDS	pkg_log_msg/app_c++/Module_Def.h	/^	ACTIVITYMGR_LVDS,$/;"	e	enum:__anon7
+ACTIVITYMGR_LVDS	pkg_log_msg/demo-log-dbus/Module_Def.h	/^	ACTIVITYMGR_LVDS,$/;"	e	enum:__anon6
+ACTIVITYMGR_LVDS	pkg_log_msg/demo-log-socket/Module_Def.h	/^	ACTIVITYMGR_LVDS,$/;"	e	enum:__anon5
+ACTIVITYMGR_LVDS_INTERFACE	include/Module_Def.h	218;"	d
+ACTIVITYMGR_LVDS_INTERFACE	pkg_log_msg/app_c++/Module_Def.h	206;"	d
+ACTIVITYMGR_LVDS_INTERFACE	pkg_log_msg/demo-log-dbus/Module_Def.h	218;"	d
+ACTIVITYMGR_LVDS_INTERFACE	pkg_log_msg/demo-log-socket/Module_Def.h	218;"	d
+ACTIVITYMGR_LVDS_NAME	include/Module_Def.h	217;"	d
+ACTIVITYMGR_LVDS_NAME	pkg_log_msg/app_c++/Module_Def.h	205;"	d
+ACTIVITYMGR_LVDS_NAME	pkg_log_msg/demo-log-dbus/Module_Def.h	217;"	d
+ACTIVITYMGR_LVDS_NAME	pkg_log_msg/demo-log-socket/Module_Def.h	217;"	d
+ACTIVITYMGR_LVDS_NICK	include/Module_Def.h	216;"	d
+ACTIVITYMGR_LVDS_NICK	pkg_log_msg/app_c++/Module_Def.h	204;"	d
+ACTIVITYMGR_LVDS_NICK	pkg_log_msg/demo-log-dbus/Module_Def.h	216;"	d
+ACTIVITYMGR_LVDS_NICK	pkg_log_msg/demo-log-socket/Module_Def.h	216;"	d
+ACTIVITYMGR_LVDS_PATH	include/Module_Def.h	219;"	d
+ACTIVITYMGR_LVDS_PATH	pkg_log_msg/app_c++/Module_Def.h	207;"	d
+ACTIVITYMGR_LVDS_PATH	pkg_log_msg/demo-log-dbus/Module_Def.h	219;"	d
+ACTIVITYMGR_LVDS_PATH	pkg_log_msg/demo-log-socket/Module_Def.h	219;"	d
+ACTIVITY_CLUSTER	include/Module_Def.h	/^	ACTIVITY_CLUSTER,$/;"	e	enum:__anon4
+ACTIVITY_CLUSTER	pkg_log_msg/app_c++/Module_Def.h	/^	ACTIVITY_CLUSTER,$/;"	e	enum:__anon7
+ACTIVITY_CLUSTER	pkg_log_msg/demo-log-dbus/Module_Def.h	/^	ACTIVITY_CLUSTER,$/;"	e	enum:__anon6
+ACTIVITY_CLUSTER	pkg_log_msg/demo-log-socket/Module_Def.h	/^	ACTIVITY_CLUSTER,$/;"	e	enum:__anon5
+ACTIVITY_CLUSTER_INTERFACE	include/Module_Def.h	199;"	d
+ACTIVITY_CLUSTER_INTERFACE	pkg_log_msg/app_c++/Module_Def.h	187;"	d
+ACTIVITY_CLUSTER_INTERFACE	pkg_log_msg/demo-log-dbus/Module_Def.h	199;"	d
+ACTIVITY_CLUSTER_INTERFACE	pkg_log_msg/demo-log-socket/Module_Def.h	199;"	d
+ACTIVITY_CLUSTER_NAME	include/Module_Def.h	198;"	d
+ACTIVITY_CLUSTER_NAME	pkg_log_msg/app_c++/Module_Def.h	186;"	d
+ACTIVITY_CLUSTER_NAME	pkg_log_msg/demo-log-dbus/Module_Def.h	198;"	d
+ACTIVITY_CLUSTER_NAME	pkg_log_msg/demo-log-socket/Module_Def.h	198;"	d
+ACTIVITY_CLUSTER_NICK	include/Module_Def.h	197;"	d
+ACTIVITY_CLUSTER_NICK	pkg_log_msg/app_c++/Module_Def.h	185;"	d
+ACTIVITY_CLUSTER_NICK	pkg_log_msg/demo-log-dbus/Module_Def.h	197;"	d
+ACTIVITY_CLUSTER_NICK	pkg_log_msg/demo-log-socket/Module_Def.h	197;"	d
+ACTIVITY_CLUSTER_PATH	include/Module_Def.h	200;"	d
+ACTIVITY_CLUSTER_PATH	pkg_log_msg/app_c++/Module_Def.h	188;"	d
+ACTIVITY_CLUSTER_PATH	pkg_log_msg/demo-log-dbus/Module_Def.h	200;"	d
+ACTIVITY_CLUSTER_PATH	pkg_log_msg/demo-log-socket/Module_Def.h	200;"	d
+ACTIVITY_LVDS	include/Module_Def.h	/^	ACTIVITY_LVDS,$/;"	e	enum:__anon4
+ACTIVITY_LVDS	pkg_log_msg/app_c++/Module_Def.h	/^	ACTIVITY_LVDS,$/;"	e	enum:__anon7
+ACTIVITY_LVDS	pkg_log_msg/demo-log-dbus/Module_Def.h	/^	ACTIVITY_LVDS,$/;"	e	enum:__anon6
+ACTIVITY_LVDS	pkg_log_msg/demo-log-socket/Module_Def.h	/^	ACTIVITY_LVDS,$/;"	e	enum:__anon5
+ACTIVITY_LVDS_INTERFACE	include/Module_Def.h	205;"	d
+ACTIVITY_LVDS_INTERFACE	pkg_log_msg/app_c++/Module_Def.h	193;"	d
+ACTIVITY_LVDS_INTERFACE	pkg_log_msg/demo-log-dbus/Module_Def.h	205;"	d
+ACTIVITY_LVDS_INTERFACE	pkg_log_msg/demo-log-socket/Module_Def.h	205;"	d
+ACTIVITY_LVDS_NAME	include/Module_Def.h	204;"	d
+ACTIVITY_LVDS_NAME	pkg_log_msg/app_c++/Module_Def.h	192;"	d
+ACTIVITY_LVDS_NAME	pkg_log_msg/demo-log-dbus/Module_Def.h	204;"	d
+ACTIVITY_LVDS_NAME	pkg_log_msg/demo-log-socket/Module_Def.h	204;"	d
+ACTIVITY_LVDS_NICK	include/Module_Def.h	203;"	d
+ACTIVITY_LVDS_NICK	pkg_log_msg/app_c++/Module_Def.h	191;"	d
+ACTIVITY_LVDS_NICK	pkg_log_msg/demo-log-dbus/Module_Def.h	203;"	d
+ACTIVITY_LVDS_NICK	pkg_log_msg/demo-log-socket/Module_Def.h	203;"	d
+ACTIVITY_LVDS_PATH	include/Module_Def.h	206;"	d
+ACTIVITY_LVDS_PATH	pkg_log_msg/app_c++/Module_Def.h	194;"	d
+ACTIVITY_LVDS_PATH	pkg_log_msg/demo-log-dbus/Module_Def.h	206;"	d
+ACTIVITY_LVDS_PATH	pkg_log_msg/demo-log-socket/Module_Def.h	206;"	d
+BUFFER_SIZE	socket-api/socket.h	25;"	d
+B_FALSE	include/ipc.h	/^	B_FALSE = 0,$/;"	e	enum:__anon1
+B_TRUE	include/ipc.h	/^	B_TRUE = 1,$/;"	e	enum:__anon1
+CC	makefile	/^CC=arm-poky-linux-gnueabi-gcc$/;"	m
+CC	pkg_log_msg/demo-log-dbus/makefile	/^CC=arm-poky-linux-gnueabi-gcc$/;"	m
+CC	pkg_log_msg/demo-log-socket/makefile	/^CC=arm-poky-linux-gnueabi-gcc$/;"	m
+CFLAGS	makefile	/^CFLAGS:=-Wall$/;"	m
+CFLAGS	pkg_log_msg/demo-log-dbus/makefile	/^CFLAGS:=-Wall$/;"	m
+CFLAGS	pkg_log_msg/demo-log-socket/makefile	/^CFLAGS:=-Wall$/;"	m
+CONFIG_H_	include/config.h	9;"	d
+CSOURCE	makefile	/^CSOURCE:=$/;"	m
+CSOURCE	pkg_log_msg/demo-log-dbus/makefile	/^CSOURCE:=$/;"	m
+CSOURCE	pkg_log_msg/demo-log-socket/makefile	/^CSOURCE:=$/;"	m
+DBUS_OBJECT	pkg_log_msg/app_c++/vc_log_cfg.h	6;"	d
+DEMO_LOG_EMERG	pkg_log_msg/demo-log-dbus/demo_log.h	131;"	d
+DEMO_LOG_EMERG	pkg_log_msg/demo-log-socket/demo_log.h	131;"	d
+DEMO_LOG_ERROR	pkg_log_msg/demo-log-dbus/demo_log.h	132;"	d
+DEMO_LOG_ERROR	pkg_log_msg/demo-log-socket/demo_log.h	132;"	d
+DEMO_LOG_INFO	pkg_log_msg/demo-log-dbus/demo_log.h	134;"	d
+DEMO_LOG_INFO	pkg_log_msg/demo-log-socket/demo_log.h	134;"	d
+DEMO_LOG_LEVEL	pkg_log_msg/demo-log-dbus/demo_log.h	122;"	d
+DEMO_LOG_LEVEL	pkg_log_msg/demo-log-socket/demo_log.h	122;"	d
+DEMO_LOG_WARN	pkg_log_msg/demo-log-dbus/demo_log.h	133;"	d
+DEMO_LOG_WARN	pkg_log_msg/demo-log-socket/demo_log.h	133;"	d
+DEMO_dbus	pkg_log_msg/demo-log-dbus/demo_log.h	/^static DBusConnection *DEMO_dbus;$/;"	v
+DEMO_dbus	pkg_log_msg/demo-log-socket/demo_log.h	/^static DBusConnection *DEMO_dbus;$/;"	v
+DEMO_get_log_level	pkg_log_msg/demo-log-dbus/demo_log.h	/^static inline const char *DEMO_get_log_level(enum _log_level level)$/;"	f
+DEMO_get_log_level	pkg_log_msg/demo-log-socket/demo_log.h	/^static inline const char *DEMO_get_log_level(enum _log_level level)$/;"	f
+DEMO_log	pkg_log_msg/demo-log-dbus/demo_log.h	/^static inline int DEMO_log( DBusConnection* dbus, $/;"	f
+DEMO_log	pkg_log_msg/demo-log-socket/demo_log.h	/^static inline int DEMO_log( DBusConnection* dbus, $/;"	f
+DEMO_pkg_log_msg	pkg_log_msg/demo-log-dbus/demo_log.h	/^static inline int DEMO_pkg_log_msg(char* buffer, _MODULE_NAME mod,enum _log_level level, const char* fmt, va_list ap)$/;"	f
+DEMO_pkg_log_msg	pkg_log_msg/demo-log-socket/demo_log.h	/^static inline int DEMO_pkg_log_msg(char* buffer, _MODULE_NAME mod,enum _log_level level, const char* fmt, va_list ap)$/;"	f
+DEMO_set_dbus_object	pkg_log_msg/demo-log-dbus/demo_log.h	/^static inline void DEMO_set_dbus_object(void *arg)$/;"	f
+DEMO_set_dbus_object	pkg_log_msg/demo-log-socket/demo_log.h	/^static inline void DEMO_set_dbus_object(void *arg)$/;"	f
+DIG1	include/time_str.h	18;"	d
+DIG1	pkg_log_msg/app_c++/vc_log.h	34;"	d
+DIG1	pkg_log_msg/demo-log-dbus/time_str.h	18;"	d
+DIG1	pkg_log_msg/demo-log-socket/time_str.h	18;"	d
+DIG2	include/time_str.h	19;"	d
+DIG2	pkg_log_msg/app_c++/vc_log.h	35;"	d
+DIG2	pkg_log_msg/demo-log-dbus/time_str.h	19;"	d
+DIG2	pkg_log_msg/demo-log-socket/time_str.h	19;"	d
+DIG3	include/time_str.h	20;"	d
+DIG3	pkg_log_msg/app_c++/vc_log.h	36;"	d
+DIG3	pkg_log_msg/demo-log-dbus/time_str.h	20;"	d
+DIG3	pkg_log_msg/demo-log-socket/time_str.h	20;"	d
+DIG4	include/time_str.h	21;"	d
+DIG4	pkg_log_msg/app_c++/vc_log.h	37;"	d
+DIG4	pkg_log_msg/demo-log-dbus/time_str.h	21;"	d
+DIG4	pkg_log_msg/demo-log-socket/time_str.h	21;"	d
+DIG5	include/time_str.h	22;"	d
+DIG5	pkg_log_msg/demo-log-dbus/time_str.h	22;"	d
+DIG5	pkg_log_msg/demo-log-socket/time_str.h	22;"	d
+DIG6	include/time_str.h	23;"	d
+DIG6	pkg_log_msg/demo-log-dbus/time_str.h	23;"	d
+DIG6	pkg_log_msg/demo-log-socket/time_str.h	23;"	d
+DIGITAL	include/time_str.h	25;"	d
+DIGITAL	pkg_log_msg/app_c++/vc_log.h	39;"	d
+DIGITAL	pkg_log_msg/demo-log-dbus/time_str.h	25;"	d
+DIGITAL	pkg_log_msg/demo-log-socket/time_str.h	25;"	d
+DIGITAL2_INC	include/time_str.h	33;"	d
+DIGITAL2_INC	pkg_log_msg/app_c++/vc_log.h	47;"	d
+DIGITAL2_INC	pkg_log_msg/demo-log-dbus/time_str.h	33;"	d
+DIGITAL2_INC	pkg_log_msg/demo-log-socket/time_str.h	33;"	d
+DIGITAL3_INC	include/time_str.h	37;"	d
+DIGITAL3_INC	pkg_log_msg/demo-log-dbus/time_str.h	37;"	d
+DIGITAL3_INC	pkg_log_msg/demo-log-socket/time_str.h	37;"	d
+DIGITAL4_INC	include/time_str.h	27;"	d
+DIGITAL4_INC	pkg_log_msg/app_c++/vc_log.h	41;"	d
+DIGITAL4_INC	pkg_log_msg/demo-log-dbus/time_str.h	27;"	d
+DIGITAL4_INC	pkg_log_msg/demo-log-socket/time_str.h	27;"	d
+DIRSIZE_MAX	include/config.h	30;"	d
+FILENO_MAX	include/config.h	29;"	d
+GBSIZE	include/config.h	27;"	d
+HARDWAREMGR_BUS	include/Module_Def.h	/^	HARDWAREMGR_BUS,$/;"	e	enum:__anon4
+HARDWAREMGR_BUS	pkg_log_msg/app_c++/Module_Def.h	/^	HARDWAREMGR_BUS,$/;"	e	enum:__anon7
+HARDWAREMGR_BUS	pkg_log_msg/demo-log-dbus/Module_Def.h	/^	HARDWAREMGR_BUS,$/;"	e	enum:__anon6
+HARDWAREMGR_BUS	pkg_log_msg/demo-log-socket/Module_Def.h	/^	HARDWAREMGR_BUS,$/;"	e	enum:__anon5
+HARDWAREMGR_BUS_INTERFACE	include/Module_Def.h	156;"	d
+HARDWAREMGR_BUS_INTERFACE	pkg_log_msg/app_c++/Module_Def.h	144;"	d
+HARDWAREMGR_BUS_INTERFACE	pkg_log_msg/demo-log-dbus/Module_Def.h	156;"	d
+HARDWAREMGR_BUS_INTERFACE	pkg_log_msg/demo-log-socket/Module_Def.h	156;"	d
+HARDWAREMGR_BUS_NAME	include/Module_Def.h	155;"	d
+HARDWAREMGR_BUS_NAME	pkg_log_msg/app_c++/Module_Def.h	143;"	d
+HARDWAREMGR_BUS_NAME	pkg_log_msg/demo-log-dbus/Module_Def.h	155;"	d
+HARDWAREMGR_BUS_NAME	pkg_log_msg/demo-log-socket/Module_Def.h	155;"	d
+HARDWAREMGR_BUS_NICK	include/Module_Def.h	154;"	d
+HARDWAREMGR_BUS_NICK	pkg_log_msg/app_c++/Module_Def.h	142;"	d
+HARDWAREMGR_BUS_NICK	pkg_log_msg/demo-log-dbus/Module_Def.h	154;"	d
+HARDWAREMGR_BUS_NICK	pkg_log_msg/demo-log-socket/Module_Def.h	154;"	d
+HARDWAREMGR_BUS_PATH	include/Module_Def.h	157;"	d
+HARDWAREMGR_BUS_PATH	pkg_log_msg/app_c++/Module_Def.h	145;"	d
+HARDWAREMGR_BUS_PATH	pkg_log_msg/demo-log-dbus/Module_Def.h	157;"	d
+HARDWAREMGR_BUS_PATH	pkg_log_msg/demo-log-socket/Module_Def.h	157;"	d
+HARDWAREMGR_CORE	include/Module_Def.h	/^	HARDWAREMGR_CORE,$/;"	e	enum:__anon4
+HARDWAREMGR_CORE	pkg_log_msg/app_c++/Module_Def.h	/^	HARDWAREMGR_CORE,$/;"	e	enum:__anon7
+HARDWAREMGR_CORE	pkg_log_msg/demo-log-dbus/Module_Def.h	/^	HARDWAREMGR_CORE,$/;"	e	enum:__anon6
+HARDWAREMGR_CORE	pkg_log_msg/demo-log-socket/Module_Def.h	/^	HARDWAREMGR_CORE,$/;"	e	enum:__anon5
+HARDWAREMGR_CORE_INTERFACE	include/Module_Def.h	180;"	d
+HARDWAREMGR_CORE_INTERFACE	pkg_log_msg/app_c++/Module_Def.h	168;"	d
+HARDWAREMGR_CORE_INTERFACE	pkg_log_msg/demo-log-dbus/Module_Def.h	180;"	d
+HARDWAREMGR_CORE_INTERFACE	pkg_log_msg/demo-log-socket/Module_Def.h	180;"	d
+HARDWAREMGR_CORE_NAME	include/Module_Def.h	179;"	d
+HARDWAREMGR_CORE_NAME	pkg_log_msg/app_c++/Module_Def.h	167;"	d
+HARDWAREMGR_CORE_NAME	pkg_log_msg/demo-log-dbus/Module_Def.h	179;"	d
+HARDWAREMGR_CORE_NAME	pkg_log_msg/demo-log-socket/Module_Def.h	179;"	d
+HARDWAREMGR_CORE_NICK	include/Module_Def.h	178;"	d
+HARDWAREMGR_CORE_NICK	pkg_log_msg/app_c++/Module_Def.h	166;"	d
+HARDWAREMGR_CORE_NICK	pkg_log_msg/demo-log-dbus/Module_Def.h	178;"	d
+HARDWAREMGR_CORE_NICK	pkg_log_msg/demo-log-socket/Module_Def.h	178;"	d
+HARDWAREMGR_CORE_PATH	include/Module_Def.h	181;"	d
+HARDWAREMGR_CORE_PATH	pkg_log_msg/app_c++/Module_Def.h	169;"	d
+HARDWAREMGR_CORE_PATH	pkg_log_msg/demo-log-dbus/Module_Def.h	181;"	d
+HARDWAREMGR_CORE_PATH	pkg_log_msg/demo-log-socket/Module_Def.h	181;"	d
+HARDWAREMGR_LCD	include/Module_Def.h	/^	HARDWAREMGR_LCD,$/;"	e	enum:__anon4
+HARDWAREMGR_LCD	pkg_log_msg/app_c++/Module_Def.h	/^	HARDWAREMGR_LCD,$/;"	e	enum:__anon7
+HARDWAREMGR_LCD	pkg_log_msg/demo-log-dbus/Module_Def.h	/^	HARDWAREMGR_LCD,$/;"	e	enum:__anon6
+HARDWAREMGR_LCD	pkg_log_msg/demo-log-socket/Module_Def.h	/^	HARDWAREMGR_LCD,$/;"	e	enum:__anon5
+HARDWAREMGR_LCD_INTERFACE	include/Module_Def.h	162;"	d
+HARDWAREMGR_LCD_INTERFACE	pkg_log_msg/app_c++/Module_Def.h	150;"	d
+HARDWAREMGR_LCD_INTERFACE	pkg_log_msg/demo-log-dbus/Module_Def.h	162;"	d
+HARDWAREMGR_LCD_INTERFACE	pkg_log_msg/demo-log-socket/Module_Def.h	162;"	d
+HARDWAREMGR_LCD_NAME	include/Module_Def.h	161;"	d
+HARDWAREMGR_LCD_NAME	pkg_log_msg/app_c++/Module_Def.h	149;"	d
+HARDWAREMGR_LCD_NAME	pkg_log_msg/demo-log-dbus/Module_Def.h	161;"	d
+HARDWAREMGR_LCD_NAME	pkg_log_msg/demo-log-socket/Module_Def.h	161;"	d
+HARDWAREMGR_LCD_NICK	include/Module_Def.h	160;"	d
+HARDWAREMGR_LCD_NICK	pkg_log_msg/app_c++/Module_Def.h	148;"	d
+HARDWAREMGR_LCD_NICK	pkg_log_msg/demo-log-dbus/Module_Def.h	160;"	d
+HARDWAREMGR_LCD_NICK	pkg_log_msg/demo-log-socket/Module_Def.h	160;"	d
+HARDWAREMGR_LCD_PATH	include/Module_Def.h	163;"	d
+HARDWAREMGR_LCD_PATH	pkg_log_msg/app_c++/Module_Def.h	151;"	d
+HARDWAREMGR_LCD_PATH	pkg_log_msg/demo-log-dbus/Module_Def.h	163;"	d
+HARDWAREMGR_LCD_PATH	pkg_log_msg/demo-log-socket/Module_Def.h	163;"	d
+HARDWAREMGR_POWER	include/Module_Def.h	/^	HARDWAREMGR_POWER,$/;"	e	enum:__anon4
+HARDWAREMGR_POWER	pkg_log_msg/app_c++/Module_Def.h	/^	HARDWAREMGR_POWER,$/;"	e	enum:__anon7
+HARDWAREMGR_POWER	pkg_log_msg/demo-log-dbus/Module_Def.h	/^	HARDWAREMGR_POWER,$/;"	e	enum:__anon6
+HARDWAREMGR_POWER	pkg_log_msg/demo-log-socket/Module_Def.h	/^	HARDWAREMGR_POWER,$/;"	e	enum:__anon5
+HARDWAREMGR_POWER_INTERFACE	include/Module_Def.h	168;"	d
+HARDWAREMGR_POWER_INTERFACE	pkg_log_msg/app_c++/Module_Def.h	156;"	d
+HARDWAREMGR_POWER_INTERFACE	pkg_log_msg/demo-log-dbus/Module_Def.h	168;"	d
+HARDWAREMGR_POWER_INTERFACE	pkg_log_msg/demo-log-socket/Module_Def.h	168;"	d
+HARDWAREMGR_POWER_NAME	include/Module_Def.h	167;"	d
+HARDWAREMGR_POWER_NAME	pkg_log_msg/app_c++/Module_Def.h	155;"	d
+HARDWAREMGR_POWER_NAME	pkg_log_msg/demo-log-dbus/Module_Def.h	167;"	d
+HARDWAREMGR_POWER_NAME	pkg_log_msg/demo-log-socket/Module_Def.h	167;"	d
+HARDWAREMGR_POWER_NICK	include/Module_Def.h	166;"	d
+HARDWAREMGR_POWER_NICK	pkg_log_msg/app_c++/Module_Def.h	154;"	d
+HARDWAREMGR_POWER_NICK	pkg_log_msg/demo-log-dbus/Module_Def.h	166;"	d
+HARDWAREMGR_POWER_NICK	pkg_log_msg/demo-log-socket/Module_Def.h	166;"	d
+HARDWAREMGR_POWER_PATH	include/Module_Def.h	169;"	d
+HARDWAREMGR_POWER_PATH	pkg_log_msg/app_c++/Module_Def.h	157;"	d
+HARDWAREMGR_POWER_PATH	pkg_log_msg/demo-log-dbus/Module_Def.h	169;"	d
+HARDWAREMGR_POWER_PATH	pkg_log_msg/demo-log-socket/Module_Def.h	169;"	d
+HARDWAREMGR_STORAGE	include/Module_Def.h	/^	HARDWAREMGR_STORAGE,$/;"	e	enum:__anon4
+HARDWAREMGR_STORAGE	pkg_log_msg/app_c++/Module_Def.h	/^	HARDWAREMGR_STORAGE,$/;"	e	enum:__anon7
+HARDWAREMGR_STORAGE	pkg_log_msg/demo-log-dbus/Module_Def.h	/^	HARDWAREMGR_STORAGE,$/;"	e	enum:__anon6
+HARDWAREMGR_STORAGE	pkg_log_msg/demo-log-socket/Module_Def.h	/^	HARDWAREMGR_STORAGE,$/;"	e	enum:__anon5
+HARDWAREMGR_STORAGE_INTERFACE	include/Module_Def.h	174;"	d
+HARDWAREMGR_STORAGE_INTERFACE	pkg_log_msg/app_c++/Module_Def.h	162;"	d
+HARDWAREMGR_STORAGE_INTERFACE	pkg_log_msg/demo-log-dbus/Module_Def.h	174;"	d
+HARDWAREMGR_STORAGE_INTERFACE	pkg_log_msg/demo-log-socket/Module_Def.h	174;"	d
+HARDWAREMGR_STORAGE_NAME	include/Module_Def.h	173;"	d
+HARDWAREMGR_STORAGE_NAME	pkg_log_msg/app_c++/Module_Def.h	161;"	d
+HARDWAREMGR_STORAGE_NAME	pkg_log_msg/demo-log-dbus/Module_Def.h	173;"	d
+HARDWAREMGR_STORAGE_NAME	pkg_log_msg/demo-log-socket/Module_Def.h	173;"	d
+HARDWAREMGR_STORAGE_NICK	include/Module_Def.h	172;"	d
+HARDWAREMGR_STORAGE_NICK	pkg_log_msg/app_c++/Module_Def.h	160;"	d
+HARDWAREMGR_STORAGE_NICK	pkg_log_msg/demo-log-dbus/Module_Def.h	172;"	d
+HARDWAREMGR_STORAGE_NICK	pkg_log_msg/demo-log-socket/Module_Def.h	172;"	d
+HARDWAREMGR_STORAGE_PATH	include/Module_Def.h	175;"	d
+HARDWAREMGR_STORAGE_PATH	pkg_log_msg/app_c++/Module_Def.h	163;"	d
+HARDWAREMGR_STORAGE_PATH	pkg_log_msg/demo-log-dbus/Module_Def.h	175;"	d
+HARDWAREMGR_STORAGE_PATH	pkg_log_msg/demo-log-socket/Module_Def.h	175;"	d
+HAREWAREMGR_LVDS	include/Module_Def.h	/^	HAREWAREMGR_LVDS,$/;"	e	enum:__anon4
+HAREWAREMGR_LVDS	pkg_log_msg/app_c++/Module_Def.h	/^	HAREWAREMGR_LVDS,$/;"	e	enum:__anon7
+HAREWAREMGR_LVDS	pkg_log_msg/demo-log-dbus/Module_Def.h	/^	HAREWAREMGR_LVDS,$/;"	e	enum:__anon6
+HAREWAREMGR_LVDS	pkg_log_msg/demo-log-socket/Module_Def.h	/^	HAREWAREMGR_LVDS,$/;"	e	enum:__anon5
+HAREWAREMGR_LVDS_INTERFACE	include/Module_Def.h	186;"	d
+HAREWAREMGR_LVDS_INTERFACE	pkg_log_msg/app_c++/Module_Def.h	174;"	d
+HAREWAREMGR_LVDS_INTERFACE	pkg_log_msg/demo-log-dbus/Module_Def.h	186;"	d
+HAREWAREMGR_LVDS_INTERFACE	pkg_log_msg/demo-log-socket/Module_Def.h	186;"	d
+HAREWAREMGR_LVDS_NAME	include/Module_Def.h	185;"	d
+HAREWAREMGR_LVDS_NAME	pkg_log_msg/app_c++/Module_Def.h	173;"	d
+HAREWAREMGR_LVDS_NAME	pkg_log_msg/demo-log-dbus/Module_Def.h	185;"	d
+HAREWAREMGR_LVDS_NAME	pkg_log_msg/demo-log-socket/Module_Def.h	185;"	d
+HAREWAREMGR_LVDS_NICK	include/Module_Def.h	184;"	d
+HAREWAREMGR_LVDS_NICK	pkg_log_msg/app_c++/Module_Def.h	172;"	d
+HAREWAREMGR_LVDS_NICK	pkg_log_msg/demo-log-dbus/Module_Def.h	184;"	d
+HAREWAREMGR_LVDS_NICK	pkg_log_msg/demo-log-socket/Module_Def.h	184;"	d
+HAREWAREMGR_LVDS_PATH	include/Module_Def.h	187;"	d
+HAREWAREMGR_LVDS_PATH	pkg_log_msg/app_c++/Module_Def.h	175;"	d
+HAREWAREMGR_LVDS_PATH	pkg_log_msg/demo-log-dbus/Module_Def.h	187;"	d
+HAREWAREMGR_LVDS_PATH	pkg_log_msg/demo-log-socket/Module_Def.h	187;"	d
+HAREWAREMGR_USBSTATE	include/Module_Def.h	/^	HAREWAREMGR_USBSTATE,$/;"	e	enum:__anon4
+HAREWAREMGR_USBSTATE	pkg_log_msg/app_c++/Module_Def.h	/^	HAREWAREMGR_USBSTATE,$/;"	e	enum:__anon7
+HAREWAREMGR_USBSTATE	pkg_log_msg/demo-log-dbus/Module_Def.h	/^	HAREWAREMGR_USBSTATE,$/;"	e	enum:__anon6
+HAREWAREMGR_USBSTATE	pkg_log_msg/demo-log-socket/Module_Def.h	/^	HAREWAREMGR_USBSTATE,$/;"	e	enum:__anon5
+HAREWAREMGR_USBSTATE_INTERFACE	include/Module_Def.h	192;"	d
+HAREWAREMGR_USBSTATE_INTERFACE	pkg_log_msg/app_c++/Module_Def.h	180;"	d
+HAREWAREMGR_USBSTATE_INTERFACE	pkg_log_msg/demo-log-dbus/Module_Def.h	192;"	d
+HAREWAREMGR_USBSTATE_INTERFACE	pkg_log_msg/demo-log-socket/Module_Def.h	192;"	d
+HAREWAREMGR_USBSTATE_NAME	include/Module_Def.h	191;"	d
+HAREWAREMGR_USBSTATE_NAME	pkg_log_msg/app_c++/Module_Def.h	179;"	d
+HAREWAREMGR_USBSTATE_NAME	pkg_log_msg/demo-log-dbus/Module_Def.h	191;"	d
+HAREWAREMGR_USBSTATE_NAME	pkg_log_msg/demo-log-socket/Module_Def.h	191;"	d
+HAREWAREMGR_USBSTATE_NICK	include/Module_Def.h	190;"	d
+HAREWAREMGR_USBSTATE_NICK	pkg_log_msg/app_c++/Module_Def.h	178;"	d
+HAREWAREMGR_USBSTATE_NICK	pkg_log_msg/demo-log-dbus/Module_Def.h	190;"	d
+HAREWAREMGR_USBSTATE_NICK	pkg_log_msg/demo-log-socket/Module_Def.h	190;"	d
+HAREWAREMGR_USBSTATE_PATH	include/Module_Def.h	193;"	d
+HAREWAREMGR_USBSTATE_PATH	pkg_log_msg/app_c++/Module_Def.h	181;"	d
+HAREWAREMGR_USBSTATE_PATH	pkg_log_msg/demo-log-dbus/Module_Def.h	193;"	d
+HAREWAREMGR_USBSTATE_PATH	pkg_log_msg/demo-log-socket/Module_Def.h	193;"	d
+IPCMQ_dispatch	source/ipc.c	/^int IPCMQ_dispatch( IpcObject_t* __obj , IPCMSG_handler_t __handler, int __timeout )$/;"	f
+IPCMQ_free	source/ipc.c	/^inline void IPCMQ_free( struct  IpcMessageQueue* queue )$/;"	f
+IPCMQ_get_message	source/ipc.c	/^inline bool_t IPCMQ_get_message(struct IpcMessageQueue* queue , void** message , int* size)$/;"	f
+IPCMQ_init	source/ipc.c	/^inline void IPCMQ_init( struct  IpcMessageQueue* queue )$/;"	f
+IPCMQ_init_and_recv	source/ipc.c	/^inline result_t IPCMQ_init_and_recv(struct IpcMessageQueue* queue ,IpcObject_t* __obj)$/;"	f
+IPCMQ_init_for_send	source/ipc.c	/^inline result_t IPCMQ_init_for_send(struct IpcMessageQueue* queue , const char* path , const char* interface)$/;"	f
+IPCMQ_is_valid	source/ipc.c	/^inline bool_t IPCMQ_is_valid( struct  IpcMessageQueue* queue )$/;"	f
+IPCMQ_put_message	source/ipc.c	/^inline result_t IPCMQ_put_message( struct IpcMessageQueue* queue, const void* message , int size )$/;"	f
+IPCMQ_send	source/ipc.c	/^inline result_t IPCMQ_send( struct IpcMessageQueue* queue , IpcObject_t* __obj )$/;"	f
+IPCMQ_size	source/ipc.c	/^inline int IPCMQ_size( struct IpcMessageQueue* queue )$/;"	f
+IPCMSG_handler_t	include/ipc.h	/^typedef void (*IPCMSG_handler_t)( IpcObject_t* __obj ,unsigned int __msgid , void* __data , int __size );$/;"	t
+IPCOBJ_connect	source/ipc.c	/^IpcObject_t* IPCOBJ_connect(const char* well_known_name , const char* listen_rules )$/;"	f
+IPCOBJ_disconnect	source/ipc.c	/^inline void IPCOBJ_disconnect(IpcObject_t*  obj )$/;"	f
+IpcMessage	include/ipc.h	/^typedef DBusMessage    IpcMessage;$/;"	t
+IpcMessageIter	include/ipc.h	/^typedef DBusMessageIter IpcMessageIter;$/;"	t
+IpcMessageQueue	include/ipc.h	/^struct IpcMessageQueue{$/;"	s
+IpcObject_t	include/ipc.h	/^typedef DBusConnection IpcObject_t;$/;"	t
+KANZIAPP_BACKGROUND	include/Module_Def.h	/^	KANZIAPP_BACKGROUND,$/;"	e	enum:__anon4
+KANZIAPP_BACKGROUND	pkg_log_msg/app_c++/Module_Def.h	/^	KANZIAPP_BACKGROUND,$/;"	e	enum:__anon7
+KANZIAPP_BACKGROUND	pkg_log_msg/demo-log-dbus/Module_Def.h	/^	KANZIAPP_BACKGROUND,$/;"	e	enum:__anon6
+KANZIAPP_BACKGROUND	pkg_log_msg/demo-log-socket/Module_Def.h	/^	KANZIAPP_BACKGROUND,$/;"	e	enum:__anon5
+KANZIAPP_BACKGROUND_INTERFACE	include/Module_Def.h	249;"	d
+KANZIAPP_BACKGROUND_INTERFACE	pkg_log_msg/app_c++/Module_Def.h	237;"	d
+KANZIAPP_BACKGROUND_INTERFACE	pkg_log_msg/demo-log-dbus/Module_Def.h	249;"	d
+KANZIAPP_BACKGROUND_INTERFACE	pkg_log_msg/demo-log-socket/Module_Def.h	249;"	d
+KANZIAPP_BACKGROUND_NAME	include/Module_Def.h	248;"	d
+KANZIAPP_BACKGROUND_NAME	pkg_log_msg/app_c++/Module_Def.h	236;"	d
+KANZIAPP_BACKGROUND_NAME	pkg_log_msg/demo-log-dbus/Module_Def.h	248;"	d
+KANZIAPP_BACKGROUND_NAME	pkg_log_msg/demo-log-socket/Module_Def.h	248;"	d
+KANZIAPP_BACKGROUND_NICK	include/Module_Def.h	247;"	d
+KANZIAPP_BACKGROUND_NICK	pkg_log_msg/app_c++/Module_Def.h	235;"	d
+KANZIAPP_BACKGROUND_NICK	pkg_log_msg/demo-log-dbus/Module_Def.h	247;"	d
+KANZIAPP_BACKGROUND_NICK	pkg_log_msg/demo-log-socket/Module_Def.h	247;"	d
+KANZIAPP_BACKGROUND_PATH	include/Module_Def.h	250;"	d
+KANZIAPP_BACKGROUND_PATH	pkg_log_msg/app_c++/Module_Def.h	238;"	d
+KANZIAPP_BACKGROUND_PATH	pkg_log_msg/demo-log-dbus/Module_Def.h	250;"	d
+KANZIAPP_BACKGROUND_PATH	pkg_log_msg/demo-log-socket/Module_Def.h	250;"	d
+KANZIAPP_POPUP	include/Module_Def.h	/^	KANZIAPP_POPUP,$/;"	e	enum:__anon4
+KANZIAPP_POPUP	pkg_log_msg/app_c++/Module_Def.h	/^	KANZIAPP_POPUP,$/;"	e	enum:__anon7
+KANZIAPP_POPUP	pkg_log_msg/demo-log-dbus/Module_Def.h	/^	KANZIAPP_POPUP,$/;"	e	enum:__anon6
+KANZIAPP_POPUP	pkg_log_msg/demo-log-socket/Module_Def.h	/^	KANZIAPP_POPUP,$/;"	e	enum:__anon5
+KANZIAPP_POPUP_INTERFACE	include/Module_Def.h	237;"	d
+KANZIAPP_POPUP_INTERFACE	pkg_log_msg/app_c++/Module_Def.h	225;"	d
+KANZIAPP_POPUP_INTERFACE	pkg_log_msg/demo-log-dbus/Module_Def.h	237;"	d
+KANZIAPP_POPUP_INTERFACE	pkg_log_msg/demo-log-socket/Module_Def.h	237;"	d
+KANZIAPP_POPUP_NAME	include/Module_Def.h	236;"	d
+KANZIAPP_POPUP_NAME	pkg_log_msg/app_c++/Module_Def.h	224;"	d
+KANZIAPP_POPUP_NAME	pkg_log_msg/demo-log-dbus/Module_Def.h	236;"	d
+KANZIAPP_POPUP_NAME	pkg_log_msg/demo-log-socket/Module_Def.h	236;"	d
+KANZIAPP_POPUP_NICK	include/Module_Def.h	235;"	d
+KANZIAPP_POPUP_NICK	pkg_log_msg/app_c++/Module_Def.h	223;"	d
+KANZIAPP_POPUP_NICK	pkg_log_msg/demo-log-dbus/Module_Def.h	235;"	d
+KANZIAPP_POPUP_NICK	pkg_log_msg/demo-log-socket/Module_Def.h	235;"	d
+KANZIAPP_POPUP_PATH	include/Module_Def.h	238;"	d
+KANZIAPP_POPUP_PATH	pkg_log_msg/app_c++/Module_Def.h	226;"	d
+KANZIAPP_POPUP_PATH	pkg_log_msg/demo-log-dbus/Module_Def.h	238;"	d
+KANZIAPP_POPUP_PATH	pkg_log_msg/demo-log-socket/Module_Def.h	238;"	d
+KANZIAPP_SPEED	include/Module_Def.h	/^	KANZIAPP_SPEED,$/;"	e	enum:__anon4
+KANZIAPP_SPEED	pkg_log_msg/app_c++/Module_Def.h	/^    KANZIAPP_SPEED,$/;"	e	enum:__anon7
+KANZIAPP_SPEED	pkg_log_msg/demo-log-dbus/Module_Def.h	/^	KANZIAPP_SPEED,$/;"	e	enum:__anon6
+KANZIAPP_SPEED	pkg_log_msg/demo-log-socket/Module_Def.h	/^	KANZIAPP_SPEED,$/;"	e	enum:__anon5
+KANZIAPP_SPEED_INTERFACE	include/Module_Def.h	225;"	d
+KANZIAPP_SPEED_INTERFACE	pkg_log_msg/app_c++/Module_Def.h	213;"	d
+KANZIAPP_SPEED_INTERFACE	pkg_log_msg/demo-log-dbus/Module_Def.h	225;"	d
+KANZIAPP_SPEED_INTERFACE	pkg_log_msg/demo-log-socket/Module_Def.h	225;"	d
+KANZIAPP_SPEED_NAME	include/Module_Def.h	224;"	d
+KANZIAPP_SPEED_NAME	pkg_log_msg/app_c++/Module_Def.h	212;"	d
+KANZIAPP_SPEED_NAME	pkg_log_msg/demo-log-dbus/Module_Def.h	224;"	d
+KANZIAPP_SPEED_NAME	pkg_log_msg/demo-log-socket/Module_Def.h	224;"	d
+KANZIAPP_SPEED_NICK	include/Module_Def.h	223;"	d
+KANZIAPP_SPEED_NICK	pkg_log_msg/app_c++/Module_Def.h	211;"	d
+KANZIAPP_SPEED_NICK	pkg_log_msg/demo-log-dbus/Module_Def.h	223;"	d
+KANZIAPP_SPEED_NICK	pkg_log_msg/demo-log-socket/Module_Def.h	223;"	d
+KANZIAPP_SPEED_PATH	include/Module_Def.h	226;"	d
+KANZIAPP_SPEED_PATH	pkg_log_msg/app_c++/Module_Def.h	214;"	d
+KANZIAPP_SPEED_PATH	pkg_log_msg/demo-log-dbus/Module_Def.h	226;"	d
+KANZIAPP_SPEED_PATH	pkg_log_msg/demo-log-socket/Module_Def.h	226;"	d
+KANZIAPP_TABICON	include/Module_Def.h	/^	KANZIAPP_TABICON,$/;"	e	enum:__anon4
+KANZIAPP_TABICON	pkg_log_msg/app_c++/Module_Def.h	/^	KANZIAPP_TABICON,$/;"	e	enum:__anon7
+KANZIAPP_TABICON	pkg_log_msg/demo-log-dbus/Module_Def.h	/^	KANZIAPP_TABICON,$/;"	e	enum:__anon6
+KANZIAPP_TABICON	pkg_log_msg/demo-log-socket/Module_Def.h	/^	KANZIAPP_TABICON,$/;"	e	enum:__anon5
+KANZIAPP_TABICON_INTERFACE	include/Module_Def.h	243;"	d
+KANZIAPP_TABICON_INTERFACE	pkg_log_msg/app_c++/Module_Def.h	231;"	d
+KANZIAPP_TABICON_INTERFACE	pkg_log_msg/demo-log-dbus/Module_Def.h	243;"	d
+KANZIAPP_TABICON_INTERFACE	pkg_log_msg/demo-log-socket/Module_Def.h	243;"	d
+KANZIAPP_TABICON_NAME	include/Module_Def.h	242;"	d
+KANZIAPP_TABICON_NAME	pkg_log_msg/app_c++/Module_Def.h	230;"	d
+KANZIAPP_TABICON_NAME	pkg_log_msg/demo-log-dbus/Module_Def.h	242;"	d
+KANZIAPP_TABICON_NAME	pkg_log_msg/demo-log-socket/Module_Def.h	242;"	d
+KANZIAPP_TABICON_NICK	include/Module_Def.h	241;"	d
+KANZIAPP_TABICON_NICK	pkg_log_msg/app_c++/Module_Def.h	229;"	d
+KANZIAPP_TABICON_NICK	pkg_log_msg/demo-log-dbus/Module_Def.h	241;"	d
+KANZIAPP_TABICON_NICK	pkg_log_msg/demo-log-socket/Module_Def.h	241;"	d
+KANZIAPP_TABICON_PATH	include/Module_Def.h	244;"	d
+KANZIAPP_TABICON_PATH	pkg_log_msg/app_c++/Module_Def.h	232;"	d
+KANZIAPP_TABICON_PATH	pkg_log_msg/demo-log-dbus/Module_Def.h	244;"	d
+KANZIAPP_TABICON_PATH	pkg_log_msg/demo-log-socket/Module_Def.h	244;"	d
+KANZIAPP_TACH	include/Module_Def.h	/^	KANZIAPP_TACH,$/;"	e	enum:__anon4
+KANZIAPP_TACH	pkg_log_msg/app_c++/Module_Def.h	/^	KANZIAPP_TACH,$/;"	e	enum:__anon7
+KANZIAPP_TACH	pkg_log_msg/demo-log-dbus/Module_Def.h	/^	KANZIAPP_TACH,$/;"	e	enum:__anon6
+KANZIAPP_TACH	pkg_log_msg/demo-log-socket/Module_Def.h	/^	KANZIAPP_TACH,$/;"	e	enum:__anon5
+KANZIAPP_TACH_INTERFACE	include/Module_Def.h	231;"	d
+KANZIAPP_TACH_INTERFACE	pkg_log_msg/app_c++/Module_Def.h	219;"	d
+KANZIAPP_TACH_INTERFACE	pkg_log_msg/demo-log-dbus/Module_Def.h	231;"	d
+KANZIAPP_TACH_INTERFACE	pkg_log_msg/demo-log-socket/Module_Def.h	231;"	d
+KANZIAPP_TACH_NAME	include/Module_Def.h	230;"	d
+KANZIAPP_TACH_NAME	pkg_log_msg/app_c++/Module_Def.h	218;"	d
+KANZIAPP_TACH_NAME	pkg_log_msg/demo-log-dbus/Module_Def.h	230;"	d
+KANZIAPP_TACH_NAME	pkg_log_msg/demo-log-socket/Module_Def.h	230;"	d
+KANZIAPP_TACH_NICK	include/Module_Def.h	229;"	d
+KANZIAPP_TACH_NICK	pkg_log_msg/app_c++/Module_Def.h	217;"	d
+KANZIAPP_TACH_NICK	pkg_log_msg/demo-log-dbus/Module_Def.h	229;"	d
+KANZIAPP_TACH_NICK	pkg_log_msg/demo-log-socket/Module_Def.h	229;"	d
+KANZIAPP_TACH_PATH	include/Module_Def.h	232;"	d
+KANZIAPP_TACH_PATH	pkg_log_msg/app_c++/Module_Def.h	220;"	d
+KANZIAPP_TACH_PATH	pkg_log_msg/demo-log-dbus/Module_Def.h	232;"	d
+KANZIAPP_TACH_PATH	pkg_log_msg/demo-log-socket/Module_Def.h	232;"	d
+KBSIZE	include/config.h	25;"	d
+LIBS	makefile	/^LIBS:=-lpthread$/;"	m
+LIBS	pkg_log_msg/demo-log-dbus/makefile	/^LIBS:=-lpthread$/;"	m
+LIBS	pkg_log_msg/demo-log-socket/makefile	/^LIBS:=-lpthread$/;"	m
+LOG_BUF_SIZE	include/config.h	23;"	d
+LOG_DIR_UNIT	include/config.h	/^struct LOG_DIR_UNIT$/;"	s
+LOG_EMERG	pkg_log_msg/app_c++/vc_log.h	175;"	d
+LOG_ERROR	pkg_log_msg/app_c++/vc_log.h	176;"	d
+LOG_INFO	pkg_log_msg/app_c++/vc_log.h	178;"	d
+LOG_LEVEL	pkg_log_msg/app_c++/vc_log.h	167;"	d
+LOG_LEVEL_LENGTH	pkg_log_msg/app_c++/vc_log.h	105;"	d
+LOG_LEVEL_LENGTH	pkg_log_msg/demo-log-dbus/demo_log.h	46;"	d
+LOG_LEVEL_LENGTH	pkg_log_msg/demo-log-socket/demo_log.h	46;"	d
+LOG_SERVICE_DBUSOBJ	pkg_log_msg/demo-log-dbus/config.h	6;"	d
+LOG_SERVICE_DBUSOBJ	pkg_log_msg/demo-log-socket/config.h	6;"	d
+LOG_SERVICE_PATH	pkg_log_msg/app_c++/vc_log_cfg.h	8;"	d
+LOG_SERVICE_PATH	pkg_log_msg/demo-log-dbus/config.h	8;"	d
+LOG_SERVICE_PATH	pkg_log_msg/demo-log-socket/config.h	8;"	d
+LOG_WARN	pkg_log_msg/app_c++/vc_log.h	177;"	d
+MAKE_RULES_STR	include/Module_Def.h	57;"	d
+MAKE_RULES_STR	include/ipc.h	62;"	d
+MAKE_RULES_STR	pkg_log_msg/demo-log-dbus/Module_Def.h	57;"	d
+MAKE_RULES_STR	pkg_log_msg/demo-log-socket/Module_Def.h	57;"	d
+MAX_ONE	socket-api/socket.c	10;"	d	file:
+MBSIZE	include/config.h	26;"	d
+MODULE_LOG_INFO	include/config.h	/^struct MODULE_LOG_INFO {$/;"	s
+MODULE_NAME_LENGTH	pkg_log_msg/app_c++/vc_log.h	104;"	d
+MODULE_NAME_LENGTH	pkg_log_msg/demo-log-dbus/demo_log.h	45;"	d
+MODULE_NAME_LENGTH	pkg_log_msg/demo-log-socket/demo_log.h	45;"	d
+MODULE_SUM	include/Module_Def.h	48;"	d
+MODULE_SUM	pkg_log_msg/demo-log-dbus/Module_Def.h	48;"	d
+MODULE_SUM	pkg_log_msg/demo-log-socket/Module_Def.h	48;"	d
+NEW_WAY_ROCKY	sender.c	10;"	d	file:
+OBJECTS	makefile	/^OBJECTS:=$/;"	m
+OBJECTS	pkg_log_msg/demo-log-dbus/makefile	/^OBJECTS:=$/;"	m
+OBJECTS	pkg_log_msg/demo-log-socket/makefile	/^OBJECTS:=$/;"	m
+OLD_WAY	sender.c	11;"	d	file:
+QUEUE_CNT	sender.c	9;"	d	file:
+RESULT_ERR	include/ipc.h	/^	RESULT_ERR = -1,$/;"	e	enum:__anon2
+RESULT_OK	include/ipc.h	/^	RESULT_OK = 0,$/;"	e	enum:__anon2
+SEC_PER_DAY	include/config.h	17;"	d
+SERVICEMGR_CONTENTPROVIDER	include/Module_Def.h	/^	SERVICEMGR_CONTENTPROVIDER,$/;"	e	enum:__anon4
+SERVICEMGR_CONTENTPROVIDER	pkg_log_msg/app_c++/Module_Def.h	/^	SERVICEMGR_CONTENTPROVIDER,$/;"	e	enum:__anon7
+SERVICEMGR_CONTENTPROVIDER	pkg_log_msg/demo-log-dbus/Module_Def.h	/^	SERVICEMGR_CONTENTPROVIDER,$/;"	e	enum:__anon6
+SERVICEMGR_CONTENTPROVIDER	pkg_log_msg/demo-log-socket/Module_Def.h	/^	SERVICEMGR_CONTENTPROVIDER,$/;"	e	enum:__anon5
+SERVICEMGR_CONTENTPROVIDER_INTERFACE	include/Module_Def.h	113;"	d
+SERVICEMGR_CONTENTPROVIDER_INTERFACE	pkg_log_msg/app_c++/Module_Def.h	101;"	d
+SERVICEMGR_CONTENTPROVIDER_INTERFACE	pkg_log_msg/demo-log-dbus/Module_Def.h	113;"	d
+SERVICEMGR_CONTENTPROVIDER_INTERFACE	pkg_log_msg/demo-log-socket/Module_Def.h	113;"	d
+SERVICEMGR_CONTENTPROVIDER_NAME	include/Module_Def.h	112;"	d
+SERVICEMGR_CONTENTPROVIDER_NAME	pkg_log_msg/app_c++/Module_Def.h	100;"	d
+SERVICEMGR_CONTENTPROVIDER_NAME	pkg_log_msg/demo-log-dbus/Module_Def.h	112;"	d
+SERVICEMGR_CONTENTPROVIDER_NAME	pkg_log_msg/demo-log-socket/Module_Def.h	112;"	d
+SERVICEMGR_CONTENTPROVIDER_NICK	include/Module_Def.h	111;"	d
+SERVICEMGR_CONTENTPROVIDER_NICK	pkg_log_msg/app_c++/Module_Def.h	99;"	d
+SERVICEMGR_CONTENTPROVIDER_NICK	pkg_log_msg/demo-log-dbus/Module_Def.h	111;"	d
+SERVICEMGR_CONTENTPROVIDER_NICK	pkg_log_msg/demo-log-socket/Module_Def.h	111;"	d
+SERVICEMGR_CONTENTPROVIDER_PATH	include/Module_Def.h	114;"	d
+SERVICEMGR_CONTENTPROVIDER_PATH	pkg_log_msg/app_c++/Module_Def.h	102;"	d
+SERVICEMGR_CONTENTPROVIDER_PATH	pkg_log_msg/demo-log-dbus/Module_Def.h	114;"	d
+SERVICEMGR_CONTENTPROVIDER_PATH	pkg_log_msg/demo-log-socket/Module_Def.h	114;"	d
+SERVICEMGR_ENVIRONMENT	include/Module_Def.h	/^	SERVICEMGR_ENVIRONMENT,$/;"	e	enum:__anon4
+SERVICEMGR_ENVIRONMENT	pkg_log_msg/app_c++/Module_Def.h	/^	SERVICEMGR_ENVIRONMENT,$/;"	e	enum:__anon7
+SERVICEMGR_ENVIRONMENT	pkg_log_msg/demo-log-dbus/Module_Def.h	/^	SERVICEMGR_ENVIRONMENT,$/;"	e	enum:__anon6
+SERVICEMGR_ENVIRONMENT	pkg_log_msg/demo-log-socket/Module_Def.h	/^	SERVICEMGR_ENVIRONMENT,$/;"	e	enum:__anon5
+SERVICEMGR_ENVIRONMENT_INTERFACE	include/Module_Def.h	137;"	d
+SERVICEMGR_ENVIRONMENT_INTERFACE	pkg_log_msg/app_c++/Module_Def.h	125;"	d
+SERVICEMGR_ENVIRONMENT_INTERFACE	pkg_log_msg/demo-log-dbus/Module_Def.h	137;"	d
+SERVICEMGR_ENVIRONMENT_INTERFACE	pkg_log_msg/demo-log-socket/Module_Def.h	137;"	d
+SERVICEMGR_ENVIRONMENT_NAME	include/Module_Def.h	136;"	d
+SERVICEMGR_ENVIRONMENT_NAME	pkg_log_msg/app_c++/Module_Def.h	124;"	d
+SERVICEMGR_ENVIRONMENT_NAME	pkg_log_msg/demo-log-dbus/Module_Def.h	136;"	d
+SERVICEMGR_ENVIRONMENT_NAME	pkg_log_msg/demo-log-socket/Module_Def.h	136;"	d
+SERVICEMGR_ENVIRONMENT_NICK	include/Module_Def.h	135;"	d
+SERVICEMGR_ENVIRONMENT_NICK	pkg_log_msg/app_c++/Module_Def.h	123;"	d
+SERVICEMGR_ENVIRONMENT_NICK	pkg_log_msg/demo-log-dbus/Module_Def.h	135;"	d
+SERVICEMGR_ENVIRONMENT_NICK	pkg_log_msg/demo-log-socket/Module_Def.h	135;"	d
+SERVICEMGR_ENVIRONMENT_PATH	include/Module_Def.h	138;"	d
+SERVICEMGR_ENVIRONMENT_PATH	pkg_log_msg/app_c++/Module_Def.h	126;"	d
+SERVICEMGR_ENVIRONMENT_PATH	pkg_log_msg/demo-log-dbus/Module_Def.h	138;"	d
+SERVICEMGR_ENVIRONMENT_PATH	pkg_log_msg/demo-log-socket/Module_Def.h	138;"	d
+SERVICEMGR_MUTIMEDIA	include/Module_Def.h	/^	SERVICEMGR_MUTIMEDIA,$/;"	e	enum:__anon4
+SERVICEMGR_MUTIMEDIA	pkg_log_msg/app_c++/Module_Def.h	/^	SERVICEMGR_MUTIMEDIA,$/;"	e	enum:__anon7
+SERVICEMGR_MUTIMEDIA	pkg_log_msg/demo-log-dbus/Module_Def.h	/^	SERVICEMGR_MUTIMEDIA,$/;"	e	enum:__anon6
+SERVICEMGR_MUTIMEDIA	pkg_log_msg/demo-log-socket/Module_Def.h	/^	SERVICEMGR_MUTIMEDIA,$/;"	e	enum:__anon5
+SERVICEMGR_MUTIMEDIA_INTERFACE	include/Module_Def.h	119;"	d
+SERVICEMGR_MUTIMEDIA_INTERFACE	pkg_log_msg/app_c++/Module_Def.h	107;"	d
+SERVICEMGR_MUTIMEDIA_INTERFACE	pkg_log_msg/demo-log-dbus/Module_Def.h	119;"	d
+SERVICEMGR_MUTIMEDIA_INTERFACE	pkg_log_msg/demo-log-socket/Module_Def.h	119;"	d
+SERVICEMGR_MUTIMEDIA_NAME	include/Module_Def.h	118;"	d
+SERVICEMGR_MUTIMEDIA_NAME	pkg_log_msg/app_c++/Module_Def.h	106;"	d
+SERVICEMGR_MUTIMEDIA_NAME	pkg_log_msg/demo-log-dbus/Module_Def.h	118;"	d
+SERVICEMGR_MUTIMEDIA_NAME	pkg_log_msg/demo-log-socket/Module_Def.h	118;"	d
+SERVICEMGR_MUTIMEDIA_NICK	include/Module_Def.h	117;"	d
+SERVICEMGR_MUTIMEDIA_NICK	pkg_log_msg/app_c++/Module_Def.h	105;"	d
+SERVICEMGR_MUTIMEDIA_NICK	pkg_log_msg/demo-log-dbus/Module_Def.h	117;"	d
+SERVICEMGR_MUTIMEDIA_NICK	pkg_log_msg/demo-log-socket/Module_Def.h	117;"	d
+SERVICEMGR_MUTIMEDIA_PATH	include/Module_Def.h	120;"	d
+SERVICEMGR_MUTIMEDIA_PATH	pkg_log_msg/app_c++/Module_Def.h	108;"	d
+SERVICEMGR_MUTIMEDIA_PATH	pkg_log_msg/demo-log-dbus/Module_Def.h	120;"	d
+SERVICEMGR_MUTIMEDIA_PATH	pkg_log_msg/demo-log-socket/Module_Def.h	120;"	d
+SERVICEMGR_POWER	include/Module_Def.h	/^	SERVICEMGR_POWER,$/;"	e	enum:__anon4
+SERVICEMGR_POWER	pkg_log_msg/app_c++/Module_Def.h	/^	SERVICEMGR_POWER,$/;"	e	enum:__anon7
+SERVICEMGR_POWER	pkg_log_msg/demo-log-dbus/Module_Def.h	/^	SERVICEMGR_POWER,$/;"	e	enum:__anon6
+SERVICEMGR_POWER	pkg_log_msg/demo-log-socket/Module_Def.h	/^	SERVICEMGR_POWER,$/;"	e	enum:__anon5
+SERVICEMGR_POWER_INTERFACE	include/Module_Def.h	143;"	d
+SERVICEMGR_POWER_INTERFACE	pkg_log_msg/app_c++/Module_Def.h	131;"	d
+SERVICEMGR_POWER_INTERFACE	pkg_log_msg/demo-log-dbus/Module_Def.h	143;"	d
+SERVICEMGR_POWER_INTERFACE	pkg_log_msg/demo-log-socket/Module_Def.h	143;"	d
+SERVICEMGR_POWER_NAME	include/Module_Def.h	142;"	d
+SERVICEMGR_POWER_NAME	pkg_log_msg/app_c++/Module_Def.h	130;"	d
+SERVICEMGR_POWER_NAME	pkg_log_msg/demo-log-dbus/Module_Def.h	142;"	d
+SERVICEMGR_POWER_NAME	pkg_log_msg/demo-log-socket/Module_Def.h	142;"	d
+SERVICEMGR_POWER_NICK	include/Module_Def.h	141;"	d
+SERVICEMGR_POWER_NICK	pkg_log_msg/app_c++/Module_Def.h	129;"	d
+SERVICEMGR_POWER_NICK	pkg_log_msg/demo-log-dbus/Module_Def.h	141;"	d
+SERVICEMGR_POWER_NICK	pkg_log_msg/demo-log-socket/Module_Def.h	141;"	d
+SERVICEMGR_POWER_PATH	include/Module_Def.h	144;"	d
+SERVICEMGR_POWER_PATH	pkg_log_msg/app_c++/Module_Def.h	132;"	d
+SERVICEMGR_POWER_PATH	pkg_log_msg/demo-log-dbus/Module_Def.h	144;"	d
+SERVICEMGR_POWER_PATH	pkg_log_msg/demo-log-socket/Module_Def.h	144;"	d
+SERVICEMGR_SYSLOG	include/Module_Def.h	/^	SERVICEMGR_SYSLOG,$/;"	e	enum:__anon4
+SERVICEMGR_SYSLOG	pkg_log_msg/app_c++/Module_Def.h	/^	SERVICEMGR_SYSLOG,$/;"	e	enum:__anon7
+SERVICEMGR_SYSLOG	pkg_log_msg/demo-log-dbus/Module_Def.h	/^	SERVICEMGR_SYSLOG,$/;"	e	enum:__anon6
+SERVICEMGR_SYSLOG	pkg_log_msg/demo-log-socket/Module_Def.h	/^	SERVICEMGR_SYSLOG,$/;"	e	enum:__anon5
+SERVICEMGR_SYSLOG_INTERFACE	include/Module_Def.h	125;"	d
+SERVICEMGR_SYSLOG_INTERFACE	pkg_log_msg/app_c++/Module_Def.h	113;"	d
+SERVICEMGR_SYSLOG_INTERFACE	pkg_log_msg/demo-log-dbus/Module_Def.h	125;"	d
+SERVICEMGR_SYSLOG_INTERFACE	pkg_log_msg/demo-log-socket/Module_Def.h	125;"	d
+SERVICEMGR_SYSLOG_NAME	include/Module_Def.h	124;"	d
+SERVICEMGR_SYSLOG_NAME	pkg_log_msg/app_c++/Module_Def.h	112;"	d
+SERVICEMGR_SYSLOG_NAME	pkg_log_msg/demo-log-dbus/Module_Def.h	124;"	d
+SERVICEMGR_SYSLOG_NAME	pkg_log_msg/demo-log-socket/Module_Def.h	124;"	d
+SERVICEMGR_SYSLOG_NICK	include/Module_Def.h	123;"	d
+SERVICEMGR_SYSLOG_NICK	pkg_log_msg/app_c++/Module_Def.h	111;"	d
+SERVICEMGR_SYSLOG_NICK	pkg_log_msg/demo-log-dbus/Module_Def.h	123;"	d
+SERVICEMGR_SYSLOG_NICK	pkg_log_msg/demo-log-socket/Module_Def.h	123;"	d
+SERVICEMGR_SYSLOG_PATH	include/Module_Def.h	126;"	d
+SERVICEMGR_SYSLOG_PATH	pkg_log_msg/app_c++/Module_Def.h	114;"	d
+SERVICEMGR_SYSLOG_PATH	pkg_log_msg/demo-log-dbus/Module_Def.h	126;"	d
+SERVICEMGR_SYSLOG_PATH	pkg_log_msg/demo-log-socket/Module_Def.h	126;"	d
+SERVICEMGR_UPGRADE	include/Module_Def.h	/^	SERVICEMGR_UPGRADE,$/;"	e	enum:__anon4
+SERVICEMGR_UPGRADE	pkg_log_msg/app_c++/Module_Def.h	/^	SERVICEMGR_UPGRADE,$/;"	e	enum:__anon7
+SERVICEMGR_UPGRADE	pkg_log_msg/demo-log-dbus/Module_Def.h	/^	SERVICEMGR_UPGRADE,$/;"	e	enum:__anon6
+SERVICEMGR_UPGRADE	pkg_log_msg/demo-log-socket/Module_Def.h	/^	SERVICEMGR_UPGRADE,$/;"	e	enum:__anon5
+SERVICEMGR_UPGRADE_INTERFACE	include/Module_Def.h	149;"	d
+SERVICEMGR_UPGRADE_INTERFACE	pkg_log_msg/app_c++/Module_Def.h	137;"	d
+SERVICEMGR_UPGRADE_INTERFACE	pkg_log_msg/demo-log-dbus/Module_Def.h	149;"	d
+SERVICEMGR_UPGRADE_INTERFACE	pkg_log_msg/demo-log-socket/Module_Def.h	149;"	d
+SERVICEMGR_UPGRADE_NAME	include/Module_Def.h	148;"	d
+SERVICEMGR_UPGRADE_NAME	pkg_log_msg/app_c++/Module_Def.h	136;"	d
+SERVICEMGR_UPGRADE_NAME	pkg_log_msg/demo-log-dbus/Module_Def.h	148;"	d
+SERVICEMGR_UPGRADE_NAME	pkg_log_msg/demo-log-socket/Module_Def.h	148;"	d
+SERVICEMGR_UPGRADE_NICK	include/Module_Def.h	147;"	d
+SERVICEMGR_UPGRADE_NICK	pkg_log_msg/app_c++/Module_Def.h	135;"	d
+SERVICEMGR_UPGRADE_NICK	pkg_log_msg/demo-log-dbus/Module_Def.h	147;"	d
+SERVICEMGR_UPGRADE_NICK	pkg_log_msg/demo-log-socket/Module_Def.h	147;"	d
+SERVICEMGR_UPGRADE_PATH	include/Module_Def.h	150;"	d
+SERVICEMGR_UPGRADE_PATH	pkg_log_msg/app_c++/Module_Def.h	138;"	d
+SERVICEMGR_UPGRADE_PATH	pkg_log_msg/demo-log-dbus/Module_Def.h	150;"	d
+SERVICEMGR_UPGRADE_PATH	pkg_log_msg/demo-log-socket/Module_Def.h	150;"	d
+SERVICEMGR_WINDOW	include/Module_Def.h	/^	SERVICEMGR_WINDOW,$/;"	e	enum:__anon4
+SERVICEMGR_WINDOW	pkg_log_msg/app_c++/Module_Def.h	/^	SERVICEMGR_WINDOW,$/;"	e	enum:__anon7
+SERVICEMGR_WINDOW	pkg_log_msg/demo-log-dbus/Module_Def.h	/^	SERVICEMGR_WINDOW,$/;"	e	enum:__anon6
+SERVICEMGR_WINDOW	pkg_log_msg/demo-log-socket/Module_Def.h	/^	SERVICEMGR_WINDOW,$/;"	e	enum:__anon5
+SERVICEMGR_WINDOW_INTERFACE	include/Module_Def.h	131;"	d
+SERVICEMGR_WINDOW_INTERFACE	pkg_log_msg/app_c++/Module_Def.h	119;"	d
+SERVICEMGR_WINDOW_INTERFACE	pkg_log_msg/demo-log-dbus/Module_Def.h	131;"	d
+SERVICEMGR_WINDOW_INTERFACE	pkg_log_msg/demo-log-socket/Module_Def.h	131;"	d
+SERVICEMGR_WINDOW_NAME	include/Module_Def.h	130;"	d
+SERVICEMGR_WINDOW_NAME	pkg_log_msg/app_c++/Module_Def.h	118;"	d
+SERVICEMGR_WINDOW_NAME	pkg_log_msg/demo-log-dbus/Module_Def.h	130;"	d
+SERVICEMGR_WINDOW_NAME	pkg_log_msg/demo-log-socket/Module_Def.h	130;"	d
+SERVICEMGR_WINDOW_NICK	include/Module_Def.h	129;"	d
+SERVICEMGR_WINDOW_NICK	pkg_log_msg/app_c++/Module_Def.h	117;"	d
+SERVICEMGR_WINDOW_NICK	pkg_log_msg/demo-log-dbus/Module_Def.h	129;"	d
+SERVICEMGR_WINDOW_NICK	pkg_log_msg/demo-log-socket/Module_Def.h	129;"	d
+SERVICEMGR_WINDOW_PATH	include/Module_Def.h	132;"	d
+SERVICEMGR_WINDOW_PATH	pkg_log_msg/app_c++/Module_Def.h	120;"	d
+SERVICEMGR_WINDOW_PATH	pkg_log_msg/demo-log-dbus/Module_Def.h	132;"	d
+SERVICEMGR_WINDOW_PATH	pkg_log_msg/demo-log-socket/Module_Def.h	132;"	d
+SERVICE_CONTENTPROVIDER	include/Module_Def.h	/^	SERVICE_CONTENTPROVIDER,$/;"	e	enum:__anon4
+SERVICE_CONTENTPROVIDER	pkg_log_msg/app_c++/Module_Def.h	/^	SERVICE_CONTENTPROVIDER,$/;"	e	enum:__anon7
+SERVICE_CONTENTPROVIDER	pkg_log_msg/demo-log-dbus/Module_Def.h	/^	SERVICE_CONTENTPROVIDER,$/;"	e	enum:__anon6
+SERVICE_CONTENTPROVIDER	pkg_log_msg/demo-log-socket/Module_Def.h	/^	SERVICE_CONTENTPROVIDER,$/;"	e	enum:__anon5
+SERVICE_CONTENTPROVIDER_INTERFACE	include/Module_Def.h	70;"	d
+SERVICE_CONTENTPROVIDER_INTERFACE	pkg_log_msg/app_c++/Module_Def.h	58;"	d
+SERVICE_CONTENTPROVIDER_INTERFACE	pkg_log_msg/demo-log-dbus/Module_Def.h	70;"	d
+SERVICE_CONTENTPROVIDER_INTERFACE	pkg_log_msg/demo-log-socket/Module_Def.h	70;"	d
+SERVICE_CONTENTPROVIDER_NAME	include/Module_Def.h	69;"	d
+SERVICE_CONTENTPROVIDER_NAME	pkg_log_msg/app_c++/Module_Def.h	57;"	d
+SERVICE_CONTENTPROVIDER_NAME	pkg_log_msg/demo-log-dbus/Module_Def.h	69;"	d
+SERVICE_CONTENTPROVIDER_NAME	pkg_log_msg/demo-log-socket/Module_Def.h	69;"	d
+SERVICE_CONTENTPROVIDER_NICK	include/Module_Def.h	68;"	d
+SERVICE_CONTENTPROVIDER_NICK	pkg_log_msg/app_c++/Module_Def.h	56;"	d
+SERVICE_CONTENTPROVIDER_NICK	pkg_log_msg/demo-log-dbus/Module_Def.h	68;"	d
+SERVICE_CONTENTPROVIDER_NICK	pkg_log_msg/demo-log-socket/Module_Def.h	68;"	d
+SERVICE_CONTENTPROVIDER_PATH	include/Module_Def.h	71;"	d
+SERVICE_CONTENTPROVIDER_PATH	pkg_log_msg/app_c++/Module_Def.h	59;"	d
+SERVICE_CONTENTPROVIDER_PATH	pkg_log_msg/demo-log-dbus/Module_Def.h	71;"	d
+SERVICE_CONTENTPROVIDER_PATH	pkg_log_msg/demo-log-socket/Module_Def.h	71;"	d
+SERVICE_ENVIRONMENT	include/Module_Def.h	/^	SERVICE_ENVIRONMENT,$/;"	e	enum:__anon4
+SERVICE_ENVIRONMENT	pkg_log_msg/app_c++/Module_Def.h	/^	SERVICE_ENVIRONMENT,$/;"	e	enum:__anon7
+SERVICE_ENVIRONMENT	pkg_log_msg/demo-log-dbus/Module_Def.h	/^	SERVICE_ENVIRONMENT,$/;"	e	enum:__anon6
+SERVICE_ENVIRONMENT	pkg_log_msg/demo-log-socket/Module_Def.h	/^	SERVICE_ENVIRONMENT,$/;"	e	enum:__anon5
+SERVICE_ENVIRONMENT_INTERFACE	include/Module_Def.h	94;"	d
+SERVICE_ENVIRONMENT_INTERFACE	pkg_log_msg/app_c++/Module_Def.h	82;"	d
+SERVICE_ENVIRONMENT_INTERFACE	pkg_log_msg/demo-log-dbus/Module_Def.h	94;"	d
+SERVICE_ENVIRONMENT_INTERFACE	pkg_log_msg/demo-log-socket/Module_Def.h	94;"	d
+SERVICE_ENVIRONMENT_NAME	include/Module_Def.h	93;"	d
+SERVICE_ENVIRONMENT_NAME	pkg_log_msg/app_c++/Module_Def.h	81;"	d
+SERVICE_ENVIRONMENT_NAME	pkg_log_msg/demo-log-dbus/Module_Def.h	93;"	d
+SERVICE_ENVIRONMENT_NAME	pkg_log_msg/demo-log-socket/Module_Def.h	93;"	d
+SERVICE_ENVIRONMENT_NICK	include/Module_Def.h	92;"	d
+SERVICE_ENVIRONMENT_NICK	pkg_log_msg/app_c++/Module_Def.h	80;"	d
+SERVICE_ENVIRONMENT_NICK	pkg_log_msg/demo-log-dbus/Module_Def.h	92;"	d
+SERVICE_ENVIRONMENT_NICK	pkg_log_msg/demo-log-socket/Module_Def.h	92;"	d
+SERVICE_ENVIRONMENT_PATH	include/Module_Def.h	95;"	d
+SERVICE_ENVIRONMENT_PATH	pkg_log_msg/app_c++/Module_Def.h	83;"	d
+SERVICE_ENVIRONMENT_PATH	pkg_log_msg/demo-log-dbus/Module_Def.h	95;"	d
+SERVICE_ENVIRONMENT_PATH	pkg_log_msg/demo-log-socket/Module_Def.h	95;"	d
+SERVICE_MUTIMEDIA	include/Module_Def.h	/^	SERVICE_MUTIMEDIA,$/;"	e	enum:__anon4
+SERVICE_MUTIMEDIA	pkg_log_msg/app_c++/Module_Def.h	/^	SERVICE_MUTIMEDIA,$/;"	e	enum:__anon7
+SERVICE_MUTIMEDIA	pkg_log_msg/demo-log-dbus/Module_Def.h	/^	SERVICE_MUTIMEDIA,$/;"	e	enum:__anon6
+SERVICE_MUTIMEDIA	pkg_log_msg/demo-log-socket/Module_Def.h	/^	SERVICE_MUTIMEDIA,$/;"	e	enum:__anon5
+SERVICE_MUTIMEDIA_INTERFACE	include/Module_Def.h	76;"	d
+SERVICE_MUTIMEDIA_INTERFACE	pkg_log_msg/app_c++/Module_Def.h	64;"	d
+SERVICE_MUTIMEDIA_INTERFACE	pkg_log_msg/demo-log-dbus/Module_Def.h	76;"	d
+SERVICE_MUTIMEDIA_INTERFACE	pkg_log_msg/demo-log-socket/Module_Def.h	76;"	d
+SERVICE_MUTIMEDIA_NAME	include/Module_Def.h	75;"	d
+SERVICE_MUTIMEDIA_NAME	pkg_log_msg/app_c++/Module_Def.h	63;"	d
+SERVICE_MUTIMEDIA_NAME	pkg_log_msg/demo-log-dbus/Module_Def.h	75;"	d
+SERVICE_MUTIMEDIA_NAME	pkg_log_msg/demo-log-socket/Module_Def.h	75;"	d
+SERVICE_MUTIMEDIA_NICK	include/Module_Def.h	74;"	d
+SERVICE_MUTIMEDIA_NICK	pkg_log_msg/app_c++/Module_Def.h	62;"	d
+SERVICE_MUTIMEDIA_NICK	pkg_log_msg/demo-log-dbus/Module_Def.h	74;"	d
+SERVICE_MUTIMEDIA_NICK	pkg_log_msg/demo-log-socket/Module_Def.h	74;"	d
+SERVICE_MUTIMEDIA_PATH	include/Module_Def.h	77;"	d
+SERVICE_MUTIMEDIA_PATH	pkg_log_msg/app_c++/Module_Def.h	65;"	d
+SERVICE_MUTIMEDIA_PATH	pkg_log_msg/demo-log-dbus/Module_Def.h	77;"	d
+SERVICE_MUTIMEDIA_PATH	pkg_log_msg/demo-log-socket/Module_Def.h	77;"	d
+SERVICE_POWER	include/Module_Def.h	/^	SERVICE_POWER,$/;"	e	enum:__anon4
+SERVICE_POWER	pkg_log_msg/app_c++/Module_Def.h	/^	SERVICE_POWER,$/;"	e	enum:__anon7
+SERVICE_POWER	pkg_log_msg/demo-log-dbus/Module_Def.h	/^	SERVICE_POWER,$/;"	e	enum:__anon6
+SERVICE_POWER	pkg_log_msg/demo-log-socket/Module_Def.h	/^	SERVICE_POWER,$/;"	e	enum:__anon5
+SERVICE_POWER_INTERFACE	include/Module_Def.h	100;"	d
+SERVICE_POWER_INTERFACE	pkg_log_msg/app_c++/Module_Def.h	88;"	d
+SERVICE_POWER_INTERFACE	pkg_log_msg/demo-log-dbus/Module_Def.h	100;"	d
+SERVICE_POWER_INTERFACE	pkg_log_msg/demo-log-socket/Module_Def.h	100;"	d
+SERVICE_POWER_NAME	include/Module_Def.h	99;"	d
+SERVICE_POWER_NAME	pkg_log_msg/app_c++/Module_Def.h	87;"	d
+SERVICE_POWER_NAME	pkg_log_msg/demo-log-dbus/Module_Def.h	99;"	d
+SERVICE_POWER_NAME	pkg_log_msg/demo-log-socket/Module_Def.h	99;"	d
+SERVICE_POWER_NICK	include/Module_Def.h	98;"	d
+SERVICE_POWER_NICK	pkg_log_msg/app_c++/Module_Def.h	86;"	d
+SERVICE_POWER_NICK	pkg_log_msg/demo-log-dbus/Module_Def.h	98;"	d
+SERVICE_POWER_NICK	pkg_log_msg/demo-log-socket/Module_Def.h	98;"	d
+SERVICE_POWER_PATH	include/Module_Def.h	101;"	d
+SERVICE_POWER_PATH	pkg_log_msg/app_c++/Module_Def.h	89;"	d
+SERVICE_POWER_PATH	pkg_log_msg/demo-log-dbus/Module_Def.h	101;"	d
+SERVICE_POWER_PATH	pkg_log_msg/demo-log-socket/Module_Def.h	101;"	d
+SERVICE_SYSLOG	include/Module_Def.h	/^	SERVICE_SYSLOG,$/;"	e	enum:__anon4
+SERVICE_SYSLOG	pkg_log_msg/app_c++/Module_Def.h	/^	SERVICE_SYSLOG,$/;"	e	enum:__anon7
+SERVICE_SYSLOG	pkg_log_msg/demo-log-dbus/Module_Def.h	/^	SERVICE_SYSLOG,$/;"	e	enum:__anon6
+SERVICE_SYSLOG	pkg_log_msg/demo-log-socket/Module_Def.h	/^	SERVICE_SYSLOG,$/;"	e	enum:__anon5
+SERVICE_SYSLOG_INTERFACE	include/Module_Def.h	82;"	d
+SERVICE_SYSLOG_INTERFACE	pkg_log_msg/app_c++/Module_Def.h	70;"	d
+SERVICE_SYSLOG_INTERFACE	pkg_log_msg/demo-log-dbus/Module_Def.h	82;"	d
+SERVICE_SYSLOG_INTERFACE	pkg_log_msg/demo-log-socket/Module_Def.h	82;"	d
+SERVICE_SYSLOG_NAME	include/Module_Def.h	81;"	d
+SERVICE_SYSLOG_NAME	pkg_log_msg/app_c++/Module_Def.h	69;"	d
+SERVICE_SYSLOG_NAME	pkg_log_msg/demo-log-dbus/Module_Def.h	81;"	d
+SERVICE_SYSLOG_NAME	pkg_log_msg/demo-log-socket/Module_Def.h	81;"	d
+SERVICE_SYSLOG_NICK	include/Module_Def.h	80;"	d
+SERVICE_SYSLOG_NICK	pkg_log_msg/app_c++/Module_Def.h	68;"	d
+SERVICE_SYSLOG_NICK	pkg_log_msg/demo-log-dbus/Module_Def.h	80;"	d
+SERVICE_SYSLOG_NICK	pkg_log_msg/demo-log-socket/Module_Def.h	80;"	d
+SERVICE_SYSLOG_PATH	include/Module_Def.h	83;"	d
+SERVICE_SYSLOG_PATH	pkg_log_msg/app_c++/Module_Def.h	71;"	d
+SERVICE_SYSLOG_PATH	pkg_log_msg/demo-log-dbus/Module_Def.h	83;"	d
+SERVICE_SYSLOG_PATH	pkg_log_msg/demo-log-socket/Module_Def.h	83;"	d
+SERVICE_UPGRADE	include/Module_Def.h	/^	SERVICE_UPGRADE,$/;"	e	enum:__anon4
+SERVICE_UPGRADE	pkg_log_msg/app_c++/Module_Def.h	/^	SERVICE_UPGRADE,$/;"	e	enum:__anon7
+SERVICE_UPGRADE	pkg_log_msg/demo-log-dbus/Module_Def.h	/^	SERVICE_UPGRADE,$/;"	e	enum:__anon6
+SERVICE_UPGRADE	pkg_log_msg/demo-log-socket/Module_Def.h	/^	SERVICE_UPGRADE,$/;"	e	enum:__anon5
+SERVICE_UPGRADE_INTERFACE	include/Module_Def.h	106;"	d
+SERVICE_UPGRADE_INTERFACE	pkg_log_msg/app_c++/Module_Def.h	94;"	d
+SERVICE_UPGRADE_INTERFACE	pkg_log_msg/demo-log-dbus/Module_Def.h	106;"	d
+SERVICE_UPGRADE_INTERFACE	pkg_log_msg/demo-log-socket/Module_Def.h	106;"	d
+SERVICE_UPGRADE_NAME	include/Module_Def.h	105;"	d
+SERVICE_UPGRADE_NAME	pkg_log_msg/app_c++/Module_Def.h	93;"	d
+SERVICE_UPGRADE_NAME	pkg_log_msg/demo-log-dbus/Module_Def.h	105;"	d
+SERVICE_UPGRADE_NAME	pkg_log_msg/demo-log-socket/Module_Def.h	105;"	d
+SERVICE_UPGRADE_NICK	include/Module_Def.h	104;"	d
+SERVICE_UPGRADE_NICK	pkg_log_msg/app_c++/Module_Def.h	92;"	d
+SERVICE_UPGRADE_NICK	pkg_log_msg/demo-log-dbus/Module_Def.h	104;"	d
+SERVICE_UPGRADE_NICK	pkg_log_msg/demo-log-socket/Module_Def.h	104;"	d
+SERVICE_UPGRADE_PATH	include/Module_Def.h	107;"	d
+SERVICE_UPGRADE_PATH	pkg_log_msg/app_c++/Module_Def.h	95;"	d
+SERVICE_UPGRADE_PATH	pkg_log_msg/demo-log-dbus/Module_Def.h	107;"	d
+SERVICE_UPGRADE_PATH	pkg_log_msg/demo-log-socket/Module_Def.h	107;"	d
+SERVICE_WINDOW	include/Module_Def.h	/^	SERVICE_WINDOW,$/;"	e	enum:__anon4
+SERVICE_WINDOW	pkg_log_msg/app_c++/Module_Def.h	/^	SERVICE_WINDOW,$/;"	e	enum:__anon7
+SERVICE_WINDOW	pkg_log_msg/demo-log-dbus/Module_Def.h	/^	SERVICE_WINDOW,$/;"	e	enum:__anon6
+SERVICE_WINDOW	pkg_log_msg/demo-log-socket/Module_Def.h	/^	SERVICE_WINDOW,$/;"	e	enum:__anon5
+SERVICE_WINDOW_INTERFACE	include/Module_Def.h	88;"	d
+SERVICE_WINDOW_INTERFACE	pkg_log_msg/app_c++/Module_Def.h	76;"	d
+SERVICE_WINDOW_INTERFACE	pkg_log_msg/demo-log-dbus/Module_Def.h	88;"	d
+SERVICE_WINDOW_INTERFACE	pkg_log_msg/demo-log-socket/Module_Def.h	88;"	d
+SERVICE_WINDOW_NAME	include/Module_Def.h	87;"	d
+SERVICE_WINDOW_NAME	pkg_log_msg/app_c++/Module_Def.h	75;"	d
+SERVICE_WINDOW_NAME	pkg_log_msg/demo-log-dbus/Module_Def.h	87;"	d
+SERVICE_WINDOW_NAME	pkg_log_msg/demo-log-socket/Module_Def.h	87;"	d
+SERVICE_WINDOW_NICK	include/Module_Def.h	86;"	d
+SERVICE_WINDOW_NICK	pkg_log_msg/app_c++/Module_Def.h	74;"	d
+SERVICE_WINDOW_NICK	pkg_log_msg/demo-log-dbus/Module_Def.h	86;"	d
+SERVICE_WINDOW_NICK	pkg_log_msg/demo-log-socket/Module_Def.h	86;"	d
+SERVICE_WINDOW_PATH	include/Module_Def.h	89;"	d
+SERVICE_WINDOW_PATH	pkg_log_msg/app_c++/Module_Def.h	77;"	d
+SERVICE_WINDOW_PATH	pkg_log_msg/demo-log-dbus/Module_Def.h	89;"	d
+SERVICE_WINDOW_PATH	pkg_log_msg/demo-log-socket/Module_Def.h	89;"	d
+SIZE_PER_LOGFILE	include/config.h	20;"	d
+SLMGR_LOG	include/Debug.h	19;"	d
+SLMGR_check_module_info	source/record.c	/^static int SLMGR_check_module_info(_MODULE_NAME name, unsigned int log_size)$/;"	f	file:
+SLMGR_create_map	source/record.c	/^static int SLMGR_create_map(const _MODULE_NAME name)$/;"	f	file:
+SLMGR_dst_fp	source/getkmsg.c	/^static FILE *SLMGR_dst_fp;$/;"	v	file:
+SLMGR_examine_path	source/record.c	/^static inline int SLMGR_examine_path(const char *pathname)$/;"	f	file:
+SLMGR_flush_module_info	source/record.c	/^static int SLMGR_flush_module_info(_MODULE_NAME name)$/;"	f	file:
+SLMGR_get_file_size	source/scan.c	/^static int SLMGR_get_file_size(const char *dirpath, const char *filename)$/;"	f	file:
+SLMGR_get_filename	source/record.c	/^static inline int SLMGR_get_filename(arg_out char *pstr)$/;"	f	file:
+SLMGR_get_module_name	source/record.c	/^static char *SLMGR_get_module_name(const _MODULE_NAME module_num)$/;"	f	file:
+SLMGR_get_oldest_file	source/scan.c	/^static int SLMGR_get_oldest_file(char *older_file ,const char *filename)$/;"	f	file:
+SLMGR_handler	source/monitor-dbus.c	/^static void SLMGR_handler(IpcObject_t *__obj, unsigned int __msgid, void *__data, int __size)$/;"	f	file:
+SLMGR_handler	source/monitor.c	/^static void SLMGR_handler(IpcObject_t *__obj, unsigned int __msgid, void *__data, int __size)$/;"	f	file:
+SLMGR_logdir_path	source/record.c	/^const char *SLMGR_logdir_path = "\/run\/demo-log";$/;"	v
+SLMGR_record_kmsg	source/getkmsg.c	/^static void SLMGR_record_kmsg(char *msg, int size)$/;"	f	file:
+SLMGR_record_log	source/record.c	/^int SLMGR_record_log(unsigned int msg_id, unsigned char *log_msg, unsigned int log_size)$/;"	f
+SLMGR_release_map	source/record.c	/^static int SLMGR_release_map(const _MODULE_NAME name)$/;"	f	file:
+SLMGR_remove_oldest_file	source/scan.c	/^static int SLMGR_remove_oldest_file(const char *filename)$/;"	f	file:
+SLMGR_scan_logdir	source/scan.c	/^static int SLMGR_scan_logdir(const char *dirpath)$/;"	f	file:
+SLMGR_start_monitor_kmsg	source/getkmsg.c	/^void *SLMGR_start_monitor_kmsg(void *arg)$/;"	f
+SLMGR_start_monitor_logdir	source/scan.c	/^void *SLMGR_start_monitor_logdir(void *argv)$/;"	f
+SLMGR_start_record	source/monitor-dbus.c	/^void *SLMGR_start_record(void *arg)$/;"	f
+SLMGR_start_record	source/monitor.c	/^void *SLMGR_start_record(void *arg)$/;"	f
+SLMGR_write_log	source/record.c	/^static int SLMGR_write_log(_MODULE_NAME name, unsigned char *log_msg, unsigned int log_size)$/;"	f	file:
+SOCKET_CLIENT	socket-api/socket.h	/^	SOCKET_CLIENT,$/;"	e	enum:socket_type
+SOCKET_SERVER	socket-api/socket.h	/^	SOCKET_SERVER$/;"	e	enum:socket_type
+THIS_MODULE_ID	pkg_log_msg/app_c++/vc_log_cfg.h	10;"	d
+THIS_MODULE_ID	pkg_log_msg/demo-log-dbus/config.h	10;"	d
+THIS_MODULE_ID	pkg_log_msg/demo-log-socket/config.h	10;"	d
+THIS_MODULE_INTERFACE	pkg_log_msg/app_c++/vc_log_cfg.h	9;"	d
+THIS_MODULE_INTERFACE	pkg_log_msg/demo-log-dbus/config.h	9;"	d
+THIS_MODULE_INTERFACE	pkg_log_msg/demo-log-socket/config.h	9;"	d
+TIME_LENGTH	pkg_log_msg/app_c++/vc_log.h	106;"	d
+TIME_LENGTH	pkg_log_msg/demo-log-dbus/demo_log.h	47;"	d
+TIME_LENGTH	pkg_log_msg/demo-log-socket/demo_log.h	47;"	d
+VC_log	pkg_log_msg/app_c++/vc_log.h	/^static inline int VC_log(const char* path,$/;"	f
+ZTE_SYSLOG_DIR_FROM	include/config.h	35;"	d
+ZTE_SYSLOG_DIR_TO	include/config.h	36;"	d
+_BASE_H_	include/base.h	9;"	d
+_GETXITOSLOG	main.c	15;"	d	file:
+_IPC_H_	include/ipc.h	2;"	d
+_IPC_INTERFACE	include/Module_Def.h	62;"	d
+_IPC_INTERFACE	pkg_log_msg/app_c++/Module_Def.h	50;"	d
+_IPC_INTERFACE	pkg_log_msg/demo-log-dbus/Module_Def.h	62;"	d
+_IPC_INTERFACE	pkg_log_msg/demo-log-socket/Module_Def.h	62;"	d
+_IPC_NAME	include/Module_Def.h	61;"	d
+_IPC_NAME	pkg_log_msg/app_c++/Module_Def.h	49;"	d
+_IPC_NAME	pkg_log_msg/demo-log-dbus/Module_Def.h	61;"	d
+_IPC_NAME	pkg_log_msg/demo-log-socket/Module_Def.h	61;"	d
+_IPC_PATH	include/Module_Def.h	63;"	d
+_IPC_PATH	pkg_log_msg/app_c++/Module_Def.h	51;"	d
+_IPC_PATH	pkg_log_msg/demo-log-dbus/Module_Def.h	63;"	d
+_IPC_PATH	pkg_log_msg/demo-log-socket/Module_Def.h	63;"	d
+_MODULE_DEF_H	include/Module_Def.h	2;"	d
+_MODULE_DEF_H	pkg_log_msg/app_c++/Module_Def.h	2;"	d
+_MODULE_DEF_H	pkg_log_msg/demo-log-dbus/Module_Def.h	2;"	d
+_MODULE_DEF_H	pkg_log_msg/demo-log-socket/Module_Def.h	2;"	d
+_MODULE_NAME	include/Module_Def.h	/^}_MODULE_NAME;$/;"	t	typeref:enum:__anon4
+_MODULE_NAME	pkg_log_msg/app_c++/Module_Def.h	/^}_MODULE_NAME;$/;"	t	typeref:enum:__anon7
+_MODULE_NAME	pkg_log_msg/demo-log-dbus/Module_Def.h	/^}_MODULE_NAME;$/;"	t	typeref:enum:__anon6
+_MODULE_NAME	pkg_log_msg/demo-log-socket/Module_Def.h	/^}_MODULE_NAME;$/;"	t	typeref:enum:__anon5
+_MONITOR_TEST	main.c	14;"	d	file:
+_RECORD_TEST	main.c	13;"	d	file:
+_ROCKY_DEBUG_H_	include/Debug.h	9;"	d
+_SOCKET_H_	socket-api/socket.h	9;"	d
+_TIME_STR_H	include/time_str.h	9;"	d
+_TIME_STR_H	pkg_log_msg/demo-log-dbus/time_str.h	9;"	d
+_TIME_STR_H	pkg_log_msg/demo-log-socket/time_str.h	9;"	d
+_UTIL_H_	pkg_log_msg/demo-log-dbus/util.h	2;"	d
+_UTIL_H_	pkg_log_msg/demo-log-socket/util.h	2;"	d
+_VC_LOG_CFG_H	pkg_log_msg/app_c++/vc_log_cfg.h	2;"	d
+_VC_LOG_CFG_H	pkg_log_msg/demo-log-dbus/config.h	2;"	d
+_VC_LOG_CFG_H	pkg_log_msg/demo-log-socket/config.h	2;"	d
+_VD_LOG_H	pkg_log_msg/app_c++/vc_log.h	9;"	d
+_VD_LOG_H	pkg_log_msg/demo-log-dbus/demo_log.h	9;"	d
+_VD_LOG_H	pkg_log_msg/demo-log-socket/demo_log.h	9;"	d
+_arg_in	pkg_log_msg/app_c++/vc_log.h	23;"	d
+_arg_in	pkg_log_msg/demo-log-dbus/demo_log.h	21;"	d
+_arg_in	pkg_log_msg/demo-log-socket/demo_log.h	21;"	d
+_arg_out	pkg_log_msg/app_c++/vc_log.h	24;"	d
+_arg_out	pkg_log_msg/demo-log-dbus/demo_log.h	22;"	d
+_arg_out	pkg_log_msg/demo-log-socket/demo_log.h	22;"	d
+_log_level	pkg_log_msg/app_c++/vc_log.h	/^enum _log_level$/;"	g
+_log_level	pkg_log_msg/demo-log-dbus/demo_log.h	/^enum _log_level$/;"	g
+_log_level	pkg_log_msg/demo-log-socket/demo_log.h	/^enum _log_level$/;"	g
+arg_in	include/config.h	14;"	d
+arg_out	include/config.h	15;"	d
+backlog	socket-api/socket.h	/^	int backlog;			\/* maximum connection *\/$/;"	m	struct:socket_info
+bool_t	include/ipc.h	/^}bool_t;$/;"	t	typeref:enum:__anon1
+buf	socket-api/socket.h	/^	unsigned char *buf;$/;"	m	struct:socket_info
+cnt	include/ipc.h	/^	int 			cnt;$/;"	m	struct:IpcMessageQueue
+dbus_add_match	pkg_log_msg/demo-log-dbus/util.c	/^int dbus_add_match(DBusConnection* dbus, const char* rules )$/;"	f
+dbus_add_match	pkg_log_msg/demo-log-socket/util.c	/^int dbus_add_match(DBusConnection* dbus, const char* rules )$/;"	f
+dbus_get_message	pkg_log_msg/demo-log-dbus/util.c	/^int dbus_get_message(DBusConnection* dbus, void* message, int* length)$/;"	f
+dbus_get_message	pkg_log_msg/demo-log-socket/util.c	/^int dbus_get_message(DBusConnection* dbus, void* message, int* length)$/;"	f
+dbus_get_message_timeout	pkg_log_msg/demo-log-dbus/util.c	/^int dbus_get_message_timeout(DBusConnection* dbus, void* message, int* length, int ms_timeout )$/;"	f
+dbus_get_message_timeout	pkg_log_msg/demo-log-socket/util.c	/^int dbus_get_message_timeout(DBusConnection* dbus, void* message, int* length, int ms_timeout )$/;"	f
+dbus_send	pkg_log_msg/demo-log-dbus/util.c	/^int dbus_send(DBusConnection* dbus,void* array,int size,const char* path,const char*interface )$/;"	f
+dbus_send	pkg_log_msg/demo-log-socket/util.c	/^int dbus_send(DBusConnection* dbus,void* array,int size,const char* path,const char*interface )$/;"	f
+dbus_send_noblocking	pkg_log_msg/demo-log-dbus/util.c	/^int dbus_send_noblocking( DBusConnection* dbus, void* array,int size , const char* path, char*interface   )$/;"	f
+dbus_send_noblocking	pkg_log_msg/demo-log-socket/util.c	/^int dbus_send_noblocking( DBusConnection* dbus, void* array,int size , const char* path, char*interface   )$/;"	f
+emerg	pkg_log_msg/app_c++/vc_log.h	/^	emerg$/;"	e	enum:_log_level
+emerg	pkg_log_msg/demo-log-dbus/demo_log.h	/^	emerg$/;"	e	enum:_log_level
+emerg	pkg_log_msg/demo-log-socket/demo_log.h	/^	emerg$/;"	e	enum:_log_level
+errExit	include/Debug.h	17;"	d
+errRtn	include/Debug.h	16;"	d
+error	pkg_log_msg/app_c++/vc_log.h	/^	error,$/;"	e	enum:_log_level
+error	pkg_log_msg/demo-log-dbus/demo_log.h	/^	error,$/;"	e	enum:_log_level
+error	pkg_log_msg/demo-log-socket/demo_log.h	/^	error,$/;"	e	enum:_log_level
+fd	include/config.h	/^	int 			fd;$/;"	m	struct:MODULE_LOG_INFO
+file_num_sum	include/config.h	/^	int		file_num_sum;$/;"	m	struct:LOG_DIR_UNIT
+file_path	include/config.h	/^	char	file_path[PATH_MAX];$/;"	m	struct:LOG_DIR_UNIT
+file_size_sum	include/config.h	/^	int		file_size_sum;$/;"	m	struct:LOG_DIR_UNIT
+get_dbus	pkg_log_msg/demo-log-dbus/util.c	/^DBusConnection* get_dbus(const char* well_known_name)$/;"	f
+get_dbus	pkg_log_msg/demo-log-socket/util.c	/^DBusConnection* get_dbus(const char* well_known_name)$/;"	f
+get_tick_count	pkg_log_msg/demo-log-dbus/util.c	/^unsigned long get_tick_count()$/;"	f
+get_tick_count	pkg_log_msg/demo-log-socket/util.c	/^unsigned long get_tick_count()$/;"	f
+get_tick_count	sender.c	/^unsigned long get_tick_count()$/;"	f
+get_time_tick	include/time_str.h	/^static inline unsigned long get_time_tick()$/;"	f
+get_time_tick	pkg_log_msg/demo-log-dbus/time_str.h	/^static inline unsigned long get_time_tick()$/;"	f
+get_time_tick	pkg_log_msg/demo-log-socket/time_str.h	/^static inline unsigned long get_time_tick()$/;"	f
+get_time_tick	source/time_str.c	/^unsigned long get_time_tick()$/;"	f
+in	socket-api/socket.h	/^	struct sockaddr_in in;$/;"	m	struct:socket_info	typeref:struct:socket_info::sockaddr_in
+info	pkg_log_msg/app_c++/vc_log.h	/^	info,$/;"	e	enum:_log_level
+info	pkg_log_msg/demo-log-dbus/demo_log.h	/^	info,$/;"	e	enum:_log_level
+info	pkg_log_msg/demo-log-socket/demo_log.h	/^	info,$/;"	e	enum:_log_level
+it	include/ipc.h	/^	IpcMessageIter it;$/;"	m	struct:IpcMessageQueue
+m	include/ipc.h	/^	IpcMessage* 	m;$/;"	m	struct:IpcMessageQueue
+main	main.c	/^int main(int argc, char *argv[])$/;"	f
+main	pkg_log_msg/demo-log-dbus/main.c	/^int main(int argc, char *argv[])$/;"	f
+main	pkg_log_msg/demo-log-socket/main.c	/^int main(int argc, char *argv[])$/;"	f
+main	sender.c	/^int main( int argc , char** argv)$/;"	f
+make_current_time_str	include/time_str.h	/^static inline unsigned int make_current_time_str(char* buf)$/;"	f
+make_current_time_str	pkg_log_msg/app_c++/vc_log.h	/^static int make_current_time_str(char* buf)$/;"	f
+make_current_time_str	pkg_log_msg/demo-log-dbus/time_str.h	/^static inline unsigned int make_current_time_str(char* buf)$/;"	f
+make_current_time_str	pkg_log_msg/demo-log-socket/time_str.h	/^static inline unsigned int make_current_time_str(char* buf)$/;"	f
+make_current_time_str	source/time_str.c	/^unsigned int make_current_time_str(char* buf)$/;"	f
+map_pos	include/config.h	/^	unsigned int	map_pos;$/;"	m	struct:MODULE_LOG_INFO
+map_ptr	include/config.h	/^	char 			*map_ptr;$/;"	m	struct:MODULE_LOG_INFO
+module_arr	source/record.c	/^static struct MODULE_LOG_INFO module_arr[MODULE_SUM];$/;"	v	typeref:struct:MODULE_LOG_INFO	file:
+msg_unit	include/ipc.h	/^}msg_unit;$/;"	t	typeref:struct:__anon3
+msgid	include/ipc.h	/^	int msgid;$/;"	m	struct:__anon3
+name	include/config.h	/^	char 			name[NAME_MAX];$/;"	m	struct:MODULE_LOG_INFO
+now_time	include/ipc.h	/^	struct timeval now_time;$/;"	m	struct:__anon3	typeref:struct:__anon3::timeval
+oldest_file	include/config.h	/^	char	oldest_file[PATH_MAX];$/;"	m	struct:LOG_DIR_UNIT
+path	include/config.h	/^	char 			path[PATH_MAX];$/;"	m	struct:MODULE_LOG_INFO
+perRtn	include/Debug.h	15;"	d
+result_t	include/ipc.h	/^}result_t;$/;"	t	typeref:enum:__anon2
+retsize	socket-api/socket.h	/^	unsigned int retsize;$/;"	m	struct:socket_info
+size	socket-api/socket.h	/^	socklen_t size;			\/* accept() parameter *\/$/;"	m	struct:socket_info
+socket_accept	socket-api/socket.c	/^static inline int socket_accept(const struct socket_info server_info, struct socket_info *client_info)$/;"	f	file:
+socket_close	socket-api/socket.c	/^inline void socket_close(int sockfd)$/;"	f
+socket_connect	socket-api/socket.c	/^int socket_connect(const struct socket_info info)$/;"	f
+socket_create	socket-api/socket.c	/^int socket_create(struct socket_info *info, const char *addr, const int port)$/;"	f
+socket_data_handle	socket-api/socket.h	/^typedef void *(*socket_data_handle)(void *data, unsigned int size);$/;"	t
+socket_dispatch_timeout	socket-api/socket.c	/^int socket_dispatch_timeout(const struct socket_info info, socket_data_handle handler, struct timeval *tm)$/;"	f
+socket_info	socket-api/socket.h	/^struct socket_info$/;"	s
+socket_info_alloc	socket-api/socket.c	/^static inline struct socket_info *socket_info_alloc(unsigned int buf_size)$/;"	f	file:
+socket_info_release	socket-api/socket.c	/^unsigned int socket_info_release(struct socket_info *info)$/;"	f
+socket_recv	socket-api/socket.c	/^static inline int socket_recv(struct socket_info *info)$/;"	f	file:
+socket_send	socket-api/socket.c	/^int socket_send(struct socket_info *info, unsigned char *buf, unsigned int size)$/;"	f
+socket_type	socket-api/socket.h	/^enum socket_type$/;"	g
+sockfd	socket-api/socket.h	/^	int sockfd;$/;"	m	struct:socket_info
+sourcefile	makefile	/^sourcefile	=	source\/$/;"	m
+syslog_get_level	pkg_log_msg/app_c++/vc_log.h	/^static inline const char *syslog_get_level(enum _log_level level)$/;"	f
+syslog_msg	pkg_log_msg/app_c++/vc_log.h	/^static inline int syslog_msg(char* buffer, _MODULE_NAME mod,enum _log_level level, const char* fmt, va_list ap)$/;"	f
+target	makefile	/^target=demo_log$/;"	m
+target	pkg_log_msg/demo-log-dbus/makefile	/^target=pkg_log_test$/;"	m
+target	pkg_log_msg/demo-log-socket/makefile	/^target=pkg_log_test$/;"	m
+tm	include/config.h	/^	time_t	 		tm;$/;"	m	struct:MODULE_LOG_INFO
+type	socket-api/socket.h	/^	enum socket_type type;	\/* socket type *\/$/;"	m	struct:socket_info	typeref:enum:socket_info::socket_type
+warn	pkg_log_msg/app_c++/vc_log.h	/^	warn,$/;"	e	enum:_log_level
+warn	pkg_log_msg/demo-log-dbus/demo_log.h	/^	warn,$/;"	e	enum:_log_level
+warn	pkg_log_msg/demo-log-socket/demo_log.h	/^	warn,$/;"	e	enum:_log_level

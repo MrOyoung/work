@@ -1,0 +1,42 @@
+
+#CXX = arm-poky-linux-gnueabi-g++ 
+CXX = g++ 
+
+# Flags passed to the preprocessor.
+CPPFLAGS := -fprofile-arcs -ftest-coverage -fPIC -O2 
+
+# Flags passed to the C++ compiler.
+CXXFLAGS := -g -Wextra -pthread 
+
+# Flags passed to the C compiler.
+CFLAGS := -g -Wextra -pthread
+
+export CPPFLAGS CXXFLAGS CFLAGS
+
+LIBS := -ldbus-glib-1 -ldbus-1 -lgobject-2.0 -lglib-2.0 -lpthread -lrt
+LIBS += ../../lib/gtest_main.a 
+LIBS += -lgcov 
+
+
+#target project makefile
+PRO_MAKE = Makefile_ori
+
+.PHONY:all
+all : $(TARGET)
+
+
+.PHONY:OBJS
+OBJS : 
+	@echo begin compile
+	@$(MAKE) -f $(PRO_MAKE) 
+
+$(TARGET) : OBJS
+	@echo begin ld 
+	$(CXX) *.o $(LIBS) -o $(TARGET) 
+
+
+.PHONY:clean
+clean:
+	rm -f $(TARGET) *.gcno *.gcda
+	@make -f $(PRO_MAKE) clean
+

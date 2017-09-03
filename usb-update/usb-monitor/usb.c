@@ -101,7 +101,10 @@ void *udisk_hotplug_monitor(void *arg)
 		char *tmp;
 		
 		if (recv(hotplug_sock, &buf, sizeof(buf), 0) < 0)
+		{
+			printf("recv error\n");
 			continue;
+		}
 
 		printf("buf is %s\n", buf);	
 		
