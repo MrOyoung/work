@@ -1,4 +1,7 @@
 
+UserName : MrOyoung
+Password : 729613ou
+
 Git入门指令：
 1 git clone : 从远程主机克隆一个版本库,如：git clone http://10.91.214.137:9002/yindongping/cluster-service.git
 

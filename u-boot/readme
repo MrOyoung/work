@@ -1,0 +1,15 @@
+
+编译工具链：
+arm_eabi_gcc4.8.2_glibc2.18.0 
+
+编译命令：
+
+cd /uboot
+
+make CROSS_COMPILE=/home/liuxiang/toolchain/arm_eabi_gcc4.8.2_glibc2.18.0/bin/arm-linux- clean
+
+make CROSS_COMPILE=/home/liuxiang/toolchain/arm_eabi_gcc4.8.2_glibc2.18.0/bin/arm-linux- mx6qsabresd_eimemmc_config
+
+make CROSS_COMPILE=/home/liuxiang/toolchain/arm_eabi_gcc4.8.2_glibc2.18.0/bin/arm-linux- -j8
+
+编译完成后在 /uboot 下生成u-boot.imx 
